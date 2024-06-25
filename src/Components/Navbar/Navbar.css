@@ -1,0 +1,219 @@
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(33 40 70);
+    min-width: 250px;
+    top: 20;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: white;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+}
+.dropdown-content a:hover {
+    background-color: rgb(33 40 70);
+    color: rgb(78 119 51)!important;
+}
+.dropdownn:hover .dropdown-content {
+    display: block;
+}
+.navbar-brand{
+    width: 25%;
+}
+.dropdownn{
+    padding-top: 0.5rem !important;
+}
+@media screen and (max-width:600px) {
+    .navbar-brand{
+        width: 50%;
+    }
+    .device{
+        display: none;
+    }
+    .formdiv{
+        padding: 1rem;
+    }
+}
+.navbarLinks{
+    color: rgb(33 40 70);
+    font-weight: 600;
+}
+ul li a:hover{
+    color: rgb(78 119 51) !important;
+    font-weight: 600 !important;
+}
+.inputField{
+    padding: 8px;
+    border-radius: 22px;
+    margin-bottom:1rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+label{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.formdiv{
+    /* box-shadow: 0px 0px 24px 9px white; */
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.contactHeading{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: fantasy;
+    letter-spacing: 6px;
+}
+.contactDesc{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: gray;
+    font-weight: 500;
+}
+.contact{
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    margin-right: 5px;
+    font-family: fantasy;
+    letter-spacing: 6px;
+}
+.contactus{
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+    font-size: 20px;
+}
+.contactbutton{
+    background: rgb(24, 29, 56);
+    padding: 1rem;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+}
+.navbar{
+    background: white;
+}
+.instituteabout{
+    font-size: 22px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.para{
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 18px;
+    /* text-align: center; */
+}
+.animatedicon{
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+.backgroundd{
+    background-image: url('../../images/fund-challenge-bg.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.headingDropdown{
+font-size: 20px;
+border-bottom: 2px solid white ;
+font-weight: 700;
+max-width: 80%;
+}
+.dropdwn{
+    background-color: rgb(33 40 70);
+    padding: 2rem;
+    color: white;
+}
+.dropdownulli{
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    padding: 8px;
+    color: white !important;
+}
+.accordionheading{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.accordion-item{
+    margin-bottom: 1rem;
+}
+
+.hover-content{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    z-index: 999;
+}
+.back{
+    background-image: url(../Navbar/assets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+.icon {
+    width: 28px;
+    margin-right: 0.7rem;
+  }
+  
+  .social-media {
+    padding: 2rem 0 0 0;
+  }
+  
+  .social-media p {
+    color: #333;
+  }
+  
+  .social-icons {
+    display: flex;
+    margin-top: 0.5rem;
+  }
+  
+  .social-icons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background: rgb(24, 29, 56);
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 0.5rem;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.05);
+  }
+  
+  .contact-info:before {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    border: 22px solid #1abc9c;
+    border-radius: 50%;
+    bottom: -77px;
+    right: 50px;
+    opacity: 0.3;
+  }
+  

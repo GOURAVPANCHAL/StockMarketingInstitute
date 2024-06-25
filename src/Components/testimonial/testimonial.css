@@ -1,0 +1,30 @@
+.image{
+border-radius: 50%;
+width: 30%;
+}
+.testimonialcard{
+    background-color: white;
+    max-width: 95%;
+    padding: 1rem;
+}
+.imagesection{
+align-items: center;
+margin-bottom: 1rem;
+}
+.content{
+    margin-left: 1rem;
+    align-items: center;
+}
+.testimonialboder{
+   border: 1px solid gray;
+   border-radius: 22px;
+   text-align: center;
+   padding: 8px;
+   text-decoration: none;
+   color: gray;
+}
+@media screen and (max-width:600px) {
+    .testimonialcard{
+        max-width: 100% !important;
+    }
+}

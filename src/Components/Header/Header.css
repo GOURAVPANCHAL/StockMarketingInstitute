@@ -1,0 +1,31 @@
+.bgImage{
+    background-color: #f0fbfc;
+}
+.heading{
+    color: #005584;
+    font-size: 22px;
+    font-weight: 700;
+    position: relative;
+    top: 20%;
+}
+.headingMain{
+    color: #181D38;
+    font-size: 45px;
+    font-weight: 700;
+    position: relative;
+    top: 20%;
+    font-family: sans-serif;
+}
+@media screen and (max-width:600px) {
+    .headingMain{
+        font-size: 28px;
+        top: 0%;
+    }
+    .heading{
+        color: #005584;
+        font-size: 22px;
+        font-weight: 700;
+        position: relative;
+        top: 5%;
+    }
+}

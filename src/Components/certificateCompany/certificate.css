@@ -1,0 +1,33 @@
+.background{
+    background-image: url('../../images/bgimg.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* padding: 2rem; */
+    color: white;
+    position: relative;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.705);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    padding: 2rem;
+}
+.TSE{
+    margin: 0;
+    max-width: 80%;
+    font-size: 19px;
+    font-weight: 600;
+}
+@media screen and (max-width:600px) {
+    .background{
+        padding: 0rem;
+    }
+    .overlay{
+        padding: 1rem;
+    }
+}

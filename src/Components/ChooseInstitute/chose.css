@@ -1,0 +1,96 @@
+ul li {
+  padding: 0;
+  list-style-type: none;
+}
+ul {
+  padding: 0;
+}
+.about {
+  line-height: 40px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.aboutIcon {
+  color: darkcyan;
+}
+.desc {
+  color: #181d38;
+  font-size: 22px;
+  font-weight: 700;
+}
+.headiMain {
+  color: #181d38;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  /* max-width: 60%; */
+  margin: auto;
+}
+.para {
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: #000; /* Adjust the color as needed */
+}
+.callingSection {
+  background-color: #181d38;
+  color: white;
+  margin-top: 3rem;
+
+  padding: 4rem;
+}
+
+button{
+    display: flex;
+    align-items: center;
+}
+.marq{
+    background-color: #181d38;
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: sans-serif;
+    padding: 2rem;
+}
+.stockmarket{
+  line-height: 28px;
+}
+.stockmarket ul li{
+  list-style-type: disc;
+}
+.stock{
+  color: #181d38;
+}
+.demo{
+  background-color: transparent;
+  border: 2px solid white;
+  width: 70%;
+  height: 50px;
+  font-size: 20px;
+}
+.demo:hover{
+  background-color: white;
+  color: black;
+  border: none;
+}
+@media screen and (max-width:600px) {
+  .headiMain{
+    max-width: 100%;
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-size: 30px;
+  }
+  .stock{
+    font-size: 40px;
+    margin-top: 2rem;
+  }
+  .callingSection {
+    padding: 0rem;
+  }
+}
