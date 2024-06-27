@@ -5,7 +5,7 @@ const AboutHemant = () => {
     <div>
         <div className="container mb-5">
         <div className="main">
-            <h2 className="contactHeading mt-3 mb-5"><u>About Hemant Sharma</u></h2>
+            <h2 className="contactHeading mt-5 mb-3">About Hemant Sharma</h2>
             <p className="para">
               Hemant Sharma's journey exemplifies the transformative power of
               passion and dedication. With a Bachelor's Degree in Finance and

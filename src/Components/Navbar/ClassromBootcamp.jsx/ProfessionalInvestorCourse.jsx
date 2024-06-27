@@ -37,8 +37,7 @@ const ProfessionalInvestorCourse = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-7">
-                <div
-                  class="accordion accordion-flush"
+                <div class="accordion accordion-flush"
                   id="accordionFlushExample"
                 >
                   <div class="accordion-item">
@@ -394,7 +393,6 @@ const ProfessionalInvestorCourse = () => {
                 <img
                   src={investor}
                   width={"100%"}
-                  height={"100%"}
                   alt="Investor"
                 />
               </div>

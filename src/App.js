@@ -29,6 +29,15 @@ import NCFMCapitalMarketModule from "./Components/Navbar/ClassromBootcamp.jsx/NC
 import NISMSeriesVIIIDerivativesMarket from "./Components/Navbar/ClassromBootcamp.jsx/NISMSeriesVIIIDerivativesMarket";
 import NISMSeriesICurrency from "./Components/Navbar/ClassromBootcamp.jsx/NISMSeriesICurrency";
 import NISMSeriesXXVResearch from "./Components/Navbar/ClassromBootcamp.jsx/NISMSeriesXXVResearch";
+import AdmissionProcedure from "./Components/Resources/AdmissionProcedure";
+import Testimonial from "./Components/testimonial/Testimonial";
+import CareerOpportunities from "./Components/Resources/CareerOpportunities";
+import PlacementPartners from "./Components/Resources/PlacementPartners";
+import BookRecommended from "./Components/Resources/BookRecommended";
+import LifeAtTSE from "./Components/Resources/LifeAtTse";
+
+
+
 function App() {
   return (
     <>
@@ -60,6 +69,12 @@ function App() {
           <Route path="/NISM-Series-VIII-Derivatives" element={<NISMSeriesVIIIDerivativesMarket />} />
           <Route path="/NISM-Series-I-Currency-Market" element={<NISMSeriesICurrency />} />
           <Route path="/NISM-Series-XXV-Research-Analyst" element={<NISMSeriesXXVResearch />} />
+          <Route path="/admission-procedure" element={<AdmissionProcedure />} />
+          <Route path="/testimonial" element={<Testimonial />} />
+          <Route path="/career_opportunities" element={<CareerOpportunities />} />
+          <Route path="/placement-partner" element={<PlacementPartners />} />
+          <Route path="/book-recommended" element={<BookRecommended />} />
+          <Route path="/life-at-tse" element={<LifeAtTSE/>} />
         </Routes>
       </BrowserRouter>
       <Footer />

@@ -1,0 +1,19 @@
+.resources_bg{
+    background-image: url('../../images/resources-page.png');
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.franchiseImage{
+    background-image: url('../../images/franchise.jpg');
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}

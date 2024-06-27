@@ -6,7 +6,7 @@ const AboutInstitute = () => {
     <div className="backgroundd mb-5">
       <div className="container">
         <div className="main">
-          <h1 className="contactHeading mt-3 mb-5"><u>About TSE</u></h1>
+          <h1 className="contactHeading mt-5 mb-5">About TSE</h1>
           <div className="row">
             <div className="col-md-6 mb-2">
               <img src={image} width='100%' alt="trading" />

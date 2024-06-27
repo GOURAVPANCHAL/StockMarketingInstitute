@@ -6,7 +6,7 @@ const FundamentalAnalysis = () => {
     <div className="container mt-5 mb-5">
       <p className="allheading">Fundamental Analysis</p>
       <div className="row">
-        <div className="col-md-5">
+        {/* <div className="col-md-5">
           <img
             style={{ borderRadius: "30px 0px 0px 30px" }}
             width={"100%"}
@@ -14,8 +14,8 @@ const FundamentalAnalysis = () => {
             src={professionalImage}
             alt=""
           />
-        </div>
-        <div className="col-md-7">
+        </div> */}
+        <div className="col-md-12">
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingOne">

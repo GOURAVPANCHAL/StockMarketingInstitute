@@ -162,7 +162,7 @@ const NISMSeriesXXVResearch = () => {
               </div>
             </div>
           </div>
-          <p className="heading">
+          <p className="heading mb-1 mt-5">
             <b>Detail Curriculum</b>
           </p>
           <div class="accordion-item">

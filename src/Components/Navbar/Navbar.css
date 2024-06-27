@@ -8,9 +8,30 @@
     z-index: 1;
     color: white;
 }
+.dropdown-content-clasrom {
+    display: none;
+    position: absolute;
+    background-color: rgb(33 40 70);
+    min-width: 50%;
+    top: 60px;
+    left: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    color: white;
+}
+.navbar-nav{
+    gap: 20px;
+}
 .dropdown-content a {
     color: white;
     padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+}
+.dropdown-content-clasrom a {
+    color: white;
+    /* padding: 12px 16px; */
     text-decoration: none;
     display: block;
     font-weight: 600;
@@ -19,7 +40,14 @@
     background-color: rgb(33 40 70);
     color: rgb(78 119 51)!important;
 }
+.dropdown-content-clasrom a:hover {
+    background-color: rgb(33 40 70);
+    color: rgb(78 119 51)!important;
+}
 .dropdownn:hover .dropdown-content {
+    display: block;
+}
+.dropdownn:hover .dropdown-content-clasrom {
     display: block;
 }
 .navbar-brand{
@@ -38,14 +66,20 @@
     .formdiv{
         padding: 1rem;
     }
+    .navbar-nav{
+gap: 0;
+    }
 }
 .navbarLinks{
     color: rgb(33 40 70);
     font-weight: 600;
+      display: flex;
+    align-items: center;
 }
 ul li a:hover{
     color: rgb(78 119 51) !important;
     font-weight: 600 !important;
+    
 }
 .inputField{
     padding: 8px;
@@ -72,8 +106,8 @@ label{
 .contactHeading{
     font-size: 40px;
     font-weight: 700;
-    font-family: fantasy;
-    letter-spacing: 6px;
+    font-family: poppins;
+    letter-spacing: 2px;
 }
 .contactDesc{
     font-size: 18px;
@@ -82,11 +116,11 @@ label{
     font-weight: 500;
 }
 .contact{
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 800;
     margin: 0;
     margin-right: 5px;
-    font-family: fantasy;
+    font-family: poppins;
     letter-spacing: 6px;
 }
 .contactus{
@@ -168,6 +202,7 @@ max-width: 80%;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+    background-attachment: fixed;
 }
 
 

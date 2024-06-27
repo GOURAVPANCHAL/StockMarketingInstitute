@@ -5,7 +5,7 @@ const Corporate = () => {
     <div>
       <div className="container mb-5">
       <div className="main">
-            <h1 className="contactHeading mt-3 mb-5"><u>Corporate Training</u></h1>
+            <h1 className="contactHeading mt-5 mb-3">Corporate Training</h1>
             <p className="para">
               <b>
                 Corporate Training & School Programs at Trading Smart Edge

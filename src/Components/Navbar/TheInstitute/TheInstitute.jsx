@@ -7,7 +7,7 @@ const TheInstitute = () => {
         <div className="container mb-5">
           <div className="main">
             <p className="contactHeading text-center">
-              <u>The Institute</u>
+              The Institute
             </p>
             <h2 className="mb-3 mt-5" style={{ color: "green" }}>About The Institute</h2>
             <p className="para">

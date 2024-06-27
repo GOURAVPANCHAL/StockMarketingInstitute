@@ -128,7 +128,7 @@ const AdvanceDiplomaFinancial = () => {
             </div>
           </div>
 
-          <p className="heading">DETAIL CURRICULUM</p>
+          <p className="heading mb-1 mt-5">DETAIL CURRICULUM</p>
 
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingTwo">

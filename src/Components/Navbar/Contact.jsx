@@ -5,10 +5,11 @@ import building from "../Navbar/assets/building.gif";
 import stock from "../Navbar/assets/analytics.gif";
 import bulb from "../Navbar/assets/lightbulb.gif";
 import verify from "../Navbar/assets/verified.gif";
-import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { Link } from "react-router-dom";
+// import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
+// import TwitterIcon from '@mui/icons-material/Twitter';
+// import InstagramIcon from '@mui/icons-material/Instagram';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Contact = () => {
   return (
@@ -16,8 +17,8 @@ const Contact = () => {
       <div>
         <div className="container">
           <div className="row">
-            <p className="contactHeading text-center">
-              <u>Contact-us</u>
+            <p className="contactHeading text-center mt-5">
+              Contact-us
             </p>
             <div className="col-md-6">
               <div className="formdiv">
@@ -97,34 +98,34 @@ const Contact = () => {
                       <div className="maindiv">
                         <div>
                           <p className="contact">Email Us:</p>
-                          <a className="contactus" href="">
+                          <Link className="contactus" to="">
                             tradingsmartedge@gmail.com
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="maindiv mt-4">
                         <div>
                           <p className="contact">Call Us:</p>
-                          <a className="contactus" href="">
+                          <Link className="contactus" to="">
                             +91 9599245542
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div class="social-media">
                         <p className="contact">Connect with us :</p>
                         <div class="social-icons">
-                          <a href="#">
-                          <FacebookRoundedIcon/>
-                          </a>
-                          <a href="#">
-                          <TwitterIcon/>
-                          </a>
-                          <a href="#">
-                          <InstagramIcon/>
-                          </a>
-                          <a href="#">
+                          <Link to="/">
+                          <i class="bi bi-facebook"></i>
+                          </Link>
+                          <Link to="/">
+                          <i class="bi bi-twitter"></i>
+                          </Link>
+                          <Link to="/">
+                          <i class="bi bi-instagram"></i>
+                          </Link>
+                          <Link to="/">
                             <i class="bi bi-linkedin"></i>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

@@ -6,9 +6,7 @@ const TrainingSeminar = () => {
       <div className="container mb-5">
       <div className="main">
             <h2 className="contactHeading mb-3 mt-5">
-              <u>
               Institutional Trading Seminars by Trading Smart Edge Institute
-              </u>
             </h2>
             <p className="para">
               At Trading Smart Edge Institute, we pride ourselves on providing
