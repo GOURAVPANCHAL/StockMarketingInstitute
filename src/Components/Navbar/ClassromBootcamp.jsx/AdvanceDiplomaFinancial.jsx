@@ -1,4 +1,6 @@
 import React from "react";
+import stock from "../../../images/stock9.png";
+import ai from "../../../images/ai11.jpg";
 
 const AdvanceDiplomaFinancial = () => {
   return (
@@ -7,20 +9,28 @@ const AdvanceDiplomaFinancial = () => {
         <p className="allheading">
           Advance Diploma In Financial Market Management
         </p>
-        <p className="para">
-          About “Advance Diploma in Financial Market Management” Advance Diploma
-          in stock market professional, a 10 Monthss program specially designed
-          for all students and professionals who wish to specialize in the stock
-          market, Share market course. It is an Advance course in the stock
-          market. This 100% skill oriented and 100% Job oriented
-          program in Share market and is one of the programs for all those who
-          wish to do specialization in Banking courses, Stock Market and Share
-          Market courses. Even those students who have done MBA Finance,
-          Marketing and even HR or any other field can do Specialization in
-          share market which is the most upcoming sector. As per NSE, there are
-          going to be 1 crore plus jobs in this field in next decade.
-        </p>
-        <p className="para">
+        <div className="row">
+          <div className="col-md-6">
+            <img src={ai} width={"100%"} alt="stock" />
+          </div>
+          <div className="col-md-6">
+            <p className="para">
+              About “Advance Diploma in Financial Market Management” Advance
+              Diploma in stock market professional, a 10 Monthss program
+              specially designed for all students and professionals who wish to
+              specialize in the stock market, Share market course. It is an
+              Advance course in the stock market. This 100% skill oriented and
+              100% Job oriented program in Share market and is one of the
+              programs for all those who wish to do specialization in Banking
+              courses, Stock Market and Share Market courses. Even those
+              students who have done MBA Finance, Marketing and even HR or any
+              other field can do Specialization in share market which is the
+              most upcoming sector. As per NSE, there are going to be 1 crore
+              plus jobs in this field in next decade.
+            </p>
+          </div>
+          <div className="col-md-6 mt-5">
+          <p className="para">
           ADSMP (Advance Diploma in stock market professional) is a short-term
           course in the stock market with 100% Job guarantee in broking houses,
           financial institutions, and banking industry. One can get stable,
@@ -36,6 +46,13 @@ const AdvanceDiplomaFinancial = () => {
           trading courses. Apart from this 11th module is of internship or on
           the job training.
         </p>
+          </div>
+          <div className="col-md-6 mt-5 mb-5">
+          <img src={stock} width={"100%"} alt="stock" />
+
+          </div>
+        </div>
+        
 
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">

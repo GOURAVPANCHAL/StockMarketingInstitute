@@ -1,22 +1,32 @@
 import React from "react";
+import stock from "../../../images/stock7.png";
+import ai from "../../../images/ai8.jpg";
+
 
 const EquityMarketTrader = () => {
   return (
     <div className="container mt-5 mb-5">
-      <p className="allheading">Equity Market Trader (EMT)</p>
-      <p className="para">
-        Equity Market Trader Course is a two-month program formulated for those
-        who wish to enter the Stock Market and become Stock Market Dealers,
-        system operators. This course covers four markets of Indian stock
-        industry viz capital market/derivative market
-      </p>
-      <p className="para">
-        It is a basic program in Job Oriented series with 100% Placement
-        Records. Certified Stock Market Trader Course is a 100% JOB ORIENTED
-        PROGRAM.
-      </p>
+          <p className="allheading">Equity Market Trader (EMT)</p>
+      <div className="row">
+        <div className="col-md-6">
+          <img width={'100%'} height={'100%'} src={stock} alt="Equity Market Trador" />
+        </div>
+        <div className="col-md-6">
+          <p className="para">
+            Equity Market Trader Course is a two-month program formulated for
+            those who wish to enter the Stock Market and become Stock Market
+            Dealers, system operators. This course covers four markets of Indian
+            stock industry viz capital market/derivative market
+          </p>
+          <p className="para">
+            It is a basic program in Job Oriented series with 100% Placement
+            Records. Certified Stock Market Trader Course is a 100% JOB ORIENTED
+            PROGRAM.
+          </p>
+        </div>
+        <div className="col-md-6">
 
-      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion accordion-flush mt-5" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
             <p
@@ -292,6 +302,14 @@ const EquityMarketTrader = () => {
           </div>
         </div>
       </div>
+        </div>
+        <div className="col-md-6 mt-5">
+        <img width={'100%'} src={ai} alt="Equity Market Trador" />
+
+        </div>
+      </div>
+
+
     </div>
   );
 };

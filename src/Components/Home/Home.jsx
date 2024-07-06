@@ -17,7 +17,7 @@ const Home = () => {
       <Certificate_company />
       <ChoseInstitute />
       <LearnCourse />
-      <MeetOurTeam />
+      {/* <MeetOurTeam /> */}
       <Testimonial />
       <AboutForm />
       <OurCompany />

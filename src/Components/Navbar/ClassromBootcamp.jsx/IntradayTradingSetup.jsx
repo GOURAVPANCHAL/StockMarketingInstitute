@@ -1,10 +1,17 @@
 import React from "react";
-
+import ai  from '../../../images/stock6.png'
+import stock from '../../../images/ai7.jpg'
 const IntradayTradingSetup = () => {
   return (
-    <div className="container mt-5 mb-5">
+    <div className="container mt-5 ">
       <p className="allheading">Intraday Trading Setups</p>
-      <p className="heading">
+      <div className="row">
+        <div className="col-md-6">
+          <img src={stock} width={'100%'} alt="" />
+        </div>
+        <div className="col-md-6">
+
+      <p className="intraday" >
         Intraday Trading Setups: A Dynamic Approach to Market Movements
       </p>
       <p className="para">
@@ -22,8 +29,9 @@ const IntradayTradingSetup = () => {
           include:
         </p>
       </div>
-
-      <div class="accordion accordion-flush" id="accordionFlushExample">
+        </div>
+        <div className="col-md-6">
+        <div class="accordion accordion-flush mt-5" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
             <p
@@ -218,6 +226,14 @@ const IntradayTradingSetup = () => {
       </div>
       <p className="para">These intraday trading setups are not static; they evolve with market conditions and trader experience. Successful intraday traders continuously refine their strategies to adapt to the dynamic nature of the market, ensuring they can effectively respond to emerging patterns and opportunities.</p>
       <p className="para">Whether you are targeting breakouts, reversals, or momentum plays, mastering these setups can significantly enhance your intraday trading performance and profitability.</p>
+        </div>
+        <div className="col-md-6 mt-5">
+        <img src={ai} width={'100%'} alt="" />
+        </div>
+      </div>
+
+
+      
     </div>
   );
 };

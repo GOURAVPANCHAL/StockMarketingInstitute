@@ -1,102 +1,104 @@
-.admissionCard{
-    border: 1px solid black;
-    border-bottom: 10px solid #000000de;
-    border-radius: 0px 50px 50px 50px;
-    padding: 2rem;
-    margin-bottom: 1rem;
+.admissionCard {
+  border: 1px solid black;
+  border-bottom: 10px solid #000000de;
+  border-radius: 0px 50px 50px 50px;
+  padding: 2rem;
+  margin-bottom: 1rem;
 }
-.title{
+/* .title{
     font-size: 22px;
     font-weight: 700;
     color: rgba(0, 0, 0, 0.867);
+} */
+.description {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.867);
+  text-align: start;
 }
-.description{
-    font-size: 16px;
-    font-weight: 500;
-    color: rgba(0, 0, 0, 0.867);
-    text-align: start;
+.careerBg {
+  background-image: url(../../images/career.jpg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.careerBg{
-    background-image: url(../../images/career.jpg);
-    height: 100vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+.partnerImage {
+  background-image: url(../../images/partners.jpg);
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.partnerImage{
-    background-image: url(../../images/partners.jpg);
-    height: 50vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.book{
-    background-image: url(../../images/books.webp);
-    height: 50vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.book {
+  background-image: url(../../images/books.webp);
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.bookbackground{
-    background-image: url(../../images/booksback.jpg);
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; 
-    padding: 1rem;
+.bookbackground {
+  background-image: url(../../images/carousel5.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* padding: 1rem; */
 }
-.imageheading{
-    font-size: 60px;
-    color: white;
-    max-width: 60%;
-    margin-top: 5rem;
-    font-weight: 600;
-    font-family: poppins;
+.imageheading {
+  font-size: 80px;
+  color: white;
+  max-width: 60%;
+  /* margin-top: 5rem; */
+  font-weight: 600;
+  font-family: poppins;
 }
-.franchise{
-    font-size: 60px;
-    color: white;
-    max-width: 60%;
-    margin-top: 0rem;
-    font-weight: 600;
-    font-family: poppins;
+.franchise {
+  font-size: 60px;
+  color: white;
+  max-width: 60%;
+  margin-top: 0rem;
+  font-weight: 600;
+  font-family: poppins;
+}
+
+.head {
+  font-size: 60px;
+  font-weight: 900;
+  font-family: poppins;
+  color: #005584;
+  text-align: center;
+  border-bottom: 1px solid white;
+  max-width: 70%;
+  margin: auto;
 }
 
 @media (max-width: 600px) {
-.imageheading{
+  .head {
+    font-size: 40px;
+  }
+  .imageheading {
     font-size: 27px;
     color: white;
     max-width: 80%;
-}
-.careerBg{
+  }
+  .careerBg {
     background-image: url(../../images/career.jpg);
     height: 50vh;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
-}
-.franchise{
-    font-size: 35px;
+  }
+  .franchise {
+    font-size: 33px;
     color: white;
     max-width: 100%;
     margin-top: 0rem;
     font-weight: 600;
     font-family: poppins;
+  }
 }
-}
-/* .tse-content{
-    background-color: rgba(0, 0, 0, 0.643);
-    padding: 2rem;
-    border-radius: 20px 20px 20px 0px;
-    margin-bottom: 2rem;
-}
-.tse-content_2{
-    background-color: rgba(171, 12, 12, 0.762);
-    padding: 2rem;
-    border-radius: 20px 20px 20px 0px;
-    margin-bottom: 2rem;
-} */

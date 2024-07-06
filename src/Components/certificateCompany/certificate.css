@@ -20,7 +20,7 @@
 .TSE{
     margin: 0;
     max-width: 80%;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 600;
 }
 @media screen and (max-width:600px) {
@@ -29,5 +29,11 @@
     }
     .overlay{
         padding: 1rem;
+    }
+    .TSE{
+        margin: 0;
+        max-width: 80%;
+        font-size: 12px;
+        font-weight: 600;
     }
 }

@@ -62,7 +62,14 @@ const Franchise = () => {
           </p>
 
           <p className="heading">
-            For further details, email <a href="mailto:tradingsmartedge@gmail.com">tradingsmartedge@gmail.com</a> or contact: 9650725689, 9599245542
+            For further details : 
+          </p>
+          <p className="heading">
+          email : <a className='heading' href="mailto:tradingsmartedge@gmail.com">tradingsmartedge@gmail.com</a>
+
+          </p>
+          <p className="heading">
+          contact : 9650725689, 9599245542
           </p>
         </div>
       </div>

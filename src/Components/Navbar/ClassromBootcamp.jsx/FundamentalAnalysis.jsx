@@ -1,21 +1,22 @@
 import React from "react";
-import professionalImage from "../../Navbar/assets/professional.jpg";
+import professionalImage from "../../../images/stock5.png";
+import ai from "../../../images/ai6.jpg";
 
 const FundamentalAnalysis = () => {
   return (
     <div className="container mt-5 mb-5">
       <p className="allheading">Fundamental Analysis</p>
+
       <div className="row">
-        {/* <div className="col-md-5">
+        <div className="col-md-5">
           <img
+          width={'100%'}
             style={{ borderRadius: "30px 0px 0px 30px" }}
-            width={"100%"}
-            height={"100%"}
             src={professionalImage}
             alt=""
           />
-        </div> */}
-        <div className="col-md-12">
+        </div>
+        <div className="col-md-7">
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingOne">
@@ -231,6 +232,9 @@ const FundamentalAnalysis = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="col-md-6 mt-5">
             <div>
               <p className="heading">
                 # Inclusive With Mastering Fundamental Analysis Strategies (MFA)
@@ -270,8 +274,7 @@ const FundamentalAnalysis = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <p className="allheading">Career Opportunity</p>
+        <p className="allheading">Career Opportunity</p>
           <p className="para">
           You can become Equity Analyst & Stock Analyst and you become fit for various other posts in various other verticals depending on your overall Qualifications
           </p>
@@ -292,7 +295,16 @@ const FundamentalAnalysis = () => {
     <li>Free Demat A/c Opening with Upstox</li>
 </ol>
         </div>
+        <div className="col-md-6 mt-5">
+        <img
+          width={'100%'}
+            style={{ borderRadius: "30px 0px 0px 30px" }}
+            src={ai}
+            alt=""
+          />
+        </div>
       </div>
+
     </div>
   );
 };

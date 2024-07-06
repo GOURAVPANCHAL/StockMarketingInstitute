@@ -28,9 +28,18 @@ ul {
   /* max-width: 60%; */
   margin: auto;
 }
+.stokmarketing{
+  padding-left:40px ;
+}
+.trainers{
+  font-size: 14px;
+  color: #005584;
+}
 .para {
   letter-spacing: 1px;
   line-height: 30px;
+  font-size: 16px;
+  margin: 0;
 }
 
 .line {
@@ -80,11 +89,17 @@ button{
   border: none;
 }
 @media screen and (max-width:600px) {
+  .about {
+    font-size: 18px;
+  }
   .headiMain{
     max-width: 100%;
     letter-spacing: 2px;
     line-height: 50px;
     font-size: 30px;
+  }
+  .geek1{
+    font-size: 20px;
   }
   .stock{
     font-size: 40px;
@@ -93,4 +108,8 @@ button{
   .callingSection {
     padding: 0rem;
   }
+  .stokmarketing{
+    padding-left:0px ;
+  }
+
 }

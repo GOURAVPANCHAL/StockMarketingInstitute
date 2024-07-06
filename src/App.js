@@ -35,6 +35,7 @@ import CareerOpportunities from "./Components/Resources/CareerOpportunities";
 import PlacementPartners from "./Components/Resources/PlacementPartners";
 import BookRecommended from "./Components/Resources/BookRecommended";
 import LifeAtTSE from "./Components/Resources/LifeAtTse";
+import Gallery from "./Components/Resources/Gallery";
 
 
 
@@ -75,9 +76,11 @@ function App() {
           <Route path="/placement-partner" element={<PlacementPartners />} />
           <Route path="/book-recommended" element={<BookRecommended />} />
           <Route path="/life-at-tse" element={<LifeAtTSE/>} />
+          <Route path="/gallery" element={<Gallery/>} />
         </Routes>
+        <Footer />
       </BrowserRouter>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

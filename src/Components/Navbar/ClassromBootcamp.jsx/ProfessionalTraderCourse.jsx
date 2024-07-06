@@ -1,6 +1,6 @@
 import React from "react";
-import professionalImage from "../../Navbar/assets/professional.jpg";
-import trading1 from "../../../images/trading1.avif";
+import trading1 from "../../../images/stock1.png";
+import professionalImage from "../../../images/ai1.jpg";
 const ProfessionalTraderCourse = () => {
   return (
     <div className="container mt-5 mb-5">
@@ -12,11 +12,10 @@ const ProfessionalTraderCourse = () => {
             width={"100%"}
             height={"100%"}
             src={professionalImage}
-            alt=""
           />
         </div>
         <div className="col-md-7">
-          <p>
+          <p className="para">
             As a beginner in the stock market, staying in sync with Top
             Indexes Nifty & Sensex and being in a consistent profit, or seeking
             a stockbroker who gives discounted brokerage; can be quite an
@@ -55,7 +54,9 @@ const ProfessionalTraderCourse = () => {
                 >
                   <div class="accordion-body">
                     <ol>
-                      <li className="para">Markets and Financial Instruments</li>
+                      <li className="para">
+                        Markets and Financial Instruments
+                      </li>
                       <li className="para">Primary Market</li>
                       <li className="para">Secondary Market</li>
                       <li className="para">Index Investment</li>
@@ -85,7 +86,9 @@ const ProfessionalTraderCourse = () => {
                     <ol>
                       <li className="para">Basics of derivatives</li>
                       <li className="para">Understanding Index</li>
-                      <li className="para">Introduction to Forwards and Futures</li>
+                      <li className="para">
+                        Introduction to Forwards and Futures
+                      </li>
                       <li className="para">Introduction to Options</li>
                       <li className="para">
                         Option Trading Strategies
@@ -130,8 +133,12 @@ const ProfessionalTraderCourse = () => {
                       <li className="para">
                         Support & Resistance
                         <ol>
-                          <li className="para">Intraday Support & Resistance</li>
-                          <li className="para">Positional Trading Support & Resistance</li>
+                          <li className="para">
+                            Intraday Support & Resistance
+                          </li>
+                          <li className="para">
+                            Positional Trading Support & Resistance
+                          </li>
                         </ol>
                       </li>
                       <li className="para">Channels</li>
@@ -142,7 +149,9 @@ const ProfessionalTraderCourse = () => {
                       <li className="para">Candle Setup Theory</li>
                       <li className="para">Candlestick Pattern</li>
                       <li className="para">Trade Volume</li>
-                      <li className="para">Open Interest and Decision Making</li>
+                      <li className="para">
+                        Open Interest and Decision Making
+                      </li>
                       <li className="para">Fibonacci</li>
                       <li className="para">Live Trading</li>
                     </ol>
@@ -158,7 +167,7 @@ const ProfessionalTraderCourse = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseFour"
                   >
-                     Advance Technical Analysis
+                    Advance Technical Analysis
                   </p>
                 </h2>
                 <div
@@ -187,7 +196,7 @@ const ProfessionalTraderCourse = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseFive"
                   >
-                     Psychology and Risk Management
+                    Psychology and Risk Management
                   </p>
                 </h2>
                 <div
@@ -198,7 +207,9 @@ const ProfessionalTraderCourse = () => {
                 >
                   <div class="accordion-body">
                     <ol>
-                      <li className="para">Identification (Source and Problem Analysis)</li>
+                      <li className="para">
+                        Identification (Source and Problem Analysis)
+                      </li>
                       <li className="para">Planning</li>
                       <li className="para">Constraints</li>
                       <li className="para">Framework</li>
@@ -207,19 +218,28 @@ const ProfessionalTraderCourse = () => {
                       <li className="para">Other Risk Treatment</li>
                       <div>
                         <p className="heading mt-5">
-                        Who can take this course?
+                          Who can take this course?
                         </p>
-                        <p className="para">It is designed to help Students, Day traders, Investors, Sub-brokers, stock Brokers, Chartered accountants, Housewives Relationship  Managers, Traders, Consultants, Entrepreneurs, etc.</p>
                         <p className="para">
-                        Features & Benefits
+                          It is designed to help Students, Day traders,
+                          Investors, Sub-brokers, stock Brokers, Chartered
+                          accountants, Housewives Relationship  Managers,
+                          Traders, Consultants, Entrepreneurs, etc.
                         </p>
+                        <p className="para">Features & Benefits</p>
                         <ol>
                           <li className="para">Instalment Facility</li>
-                          <li className="para">Daily Live trading in the classroom</li>
+                          <li className="para">
+                            Daily Live trading in the classroom
+                          </li>
                           <li className="para">3+ Mentors Cum Traders</li>
-                          <li className="para">Retakes and Class Backups Available</li>
+                          <li className="para">
+                            Retakes and Class Backups Available
+                          </li>
                           <li className="para">Lifetime Support</li>
-                          <li className="para">Free Demat A/c Opening with Upstox</li>
+                          <li className="para">
+                            Free Demat A/c Opening with Upstox
+                          </li>
                         </ol>
                       </div>
                     </ol>

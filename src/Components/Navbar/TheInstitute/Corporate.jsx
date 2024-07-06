@@ -30,8 +30,8 @@ const Corporate = () => {
               training modules that cater to different levels of expertise, from
               beginner to advanced.
             </p>
-            <p className="para">
-              <b>Key Features of Our Corporate Training:</b>
+            <p className="heading">
+              <b><u>Key Features of Our Corporate Training:</u></b>
             </p>
             <p className="para">
               <b>Customized Training Solutions:</b> We understand that every
@@ -63,8 +63,8 @@ const Corporate = () => {
               a collaborative learning environment and potential business
               opportunities.
             </p>
-            <p className="para">
-              <b>School Programs</b>
+            <p className="heading">
+              <b><u>School Programs</u></b>
             </p>
             <p className="para">
               Our School Programs aim to introduce young minds to the
@@ -73,8 +73,8 @@ const Corporate = () => {
               suitable for high school and college students, designed to spark
               interest and provide essential knowledge in financial markets.
             </p>
-            <p className="para">
-              <b>Key Features of Our School Programs:</b>
+            <p className="heading">
+              <b><u>Key Features of Our School Programs:</u></b>
             </p>
             <p className="para">
               <b> Interactive Learning:</b> Our mentor uses engaging teaching

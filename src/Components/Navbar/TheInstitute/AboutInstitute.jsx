@@ -1,12 +1,12 @@
 import React from "react";
 import '../../Navbar/Navbar.css'
-import image from '../assets/mision_1.png'
+import image from '../../../images/mision_1.png'
 const AboutInstitute = () => {
   return (
     <div className="backgroundd mb-5">
       <div className="container">
         <div className="main">
-          <h1 className="contactHeading mt-5 mb-5">About TSE</h1>
+      <h1 className="head mt-5 mb-5">About <span style={{color:'green'}}> TSE</span></h1>
           <div className="row">
             <div className="col-md-6 mb-2">
               <img src={image} width='100%' alt="trading" />
@@ -28,8 +28,7 @@ const AboutInstitute = () => {
           </p>
             </div>
           </div>
-          
-         
+ 
           <p className="para">
             We're proud to offer quick, job-focused certification programs, with
             specialized courses in Technical and Fundamental Analysis. Whether

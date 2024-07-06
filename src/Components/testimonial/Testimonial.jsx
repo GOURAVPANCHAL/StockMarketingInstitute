@@ -50,7 +50,7 @@ const Testimonial = () => {
     {
       name: "Shivam",
       image: testimonial1,
-      position: "Financial Analyst",
+      position: "Aspiring Trader",
       desc: (
         <p>
           <span style={{ fontSize: "60px" }}>❝</span>
@@ -64,7 +64,7 @@ const Testimonial = () => {
     {
       name: "Pankaj",
       image: testimonial2,
-      position: "Investment Banker",
+      position: "Aspiring Trader",
       desc: (
         <p>
           <span style={{ fontSize: "60px" }}>❝</span>
@@ -156,7 +156,13 @@ const Testimonial = () => {
                   </div>
                 </div>
                 <div>
-                  <div>⭐⭐⭐⭐⭐</div>
+                <div className="star d-flex gap-2">
+                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
+                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
+                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
+                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
+                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
+                  </div>
                 </div>
                 <div>
                   <p>{item.desc}</p>

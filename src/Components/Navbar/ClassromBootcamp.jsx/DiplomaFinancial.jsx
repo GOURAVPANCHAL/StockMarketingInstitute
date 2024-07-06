@@ -1,9 +1,17 @@
 import React from "react";
-
+import ai  from '../../../images/stock8.png'
+import stock from '../../../images/ai10.jpg'
 const DiplomaFinancial = () => {
   return (
     <div className="container mt-5 mb-5">
       <p className="allheading">Diploma in Financial Market Management</p>
+      <div className="row">
+        <div className="col-md-6">
+        <img width={'100%'} src={stock} alt="Equity Market Trador" />
+
+        </div>
+        <div className="col-md-6">
+
       <p className="para">
         About <b>“Diploma in Financial Market Management” </b> a Six-Month
         program specially designed for all students and professionals who wish
@@ -26,8 +34,9 @@ const DiplomaFinancial = () => {
         skill drives competent knowledge and ultimately powerful expertise.
         Become a master trader overnight!
       </p>
-
-      <div class="accordion accordion-flush" id="accordionFlushExample">
+        </div>
+        <div className="col-md-6">
+        <div class="accordion accordion-flush mt-5" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
             <p
@@ -892,6 +901,13 @@ const DiplomaFinancial = () => {
     <li>Those who want to pursue the career in financial services</li>
 </ol>
       </div>
+        </div>
+        <div className="col-md-6 mt-5">
+            <img src={ai} width={'100%'} alt="" />
+        </div>
+      </div>
+
+     
     </div>
   );
 };

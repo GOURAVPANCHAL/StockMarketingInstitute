@@ -93,17 +93,7 @@ In this industry, expertise, skill, and experience are often more valuable than 
   ];
   return (
     <div>
-      <div className="careerBg">
-        <div className="overlay">
-          <div className="container">
-            <p className="imageheading">
-              What Are The <span style={{ color: "#4e7733", fontWeight: "700" }}>Career Options</span> In Stock
-              <span style={{ color: "#4e7733", fontWeight: "700" }}> Trading?
-              </span>
-            </p>
-          </div>
-        </div>
-      </div>
+      <p className="head">What Are The <span style={{color:'green'}}>Career Options In Stock Trading</span></p>
       <div className="container">
         <div className="mt-5 mb-5">
           <p className="para">

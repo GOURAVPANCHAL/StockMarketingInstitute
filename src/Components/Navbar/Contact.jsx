@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../Navbar/Navbar.css";
 import support from "../Navbar/assets/helpdesk.gif";
 import building from "../Navbar/assets/building.gif";
@@ -6,20 +6,20 @@ import stock from "../Navbar/assets/analytics.gif";
 import bulb from "../Navbar/assets/lightbulb.gif";
 import verify from "../Navbar/assets/verified.gif";
 import { Link } from "react-router-dom";
-// import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
-// import TwitterIcon from '@mui/icons-material/Twitter';
-// import InstagramIcon from '@mui/icons-material/Instagram';
-// import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }, []);
   return (
     <>
       <div>
         <div className="container">
           <div className="row">
-            <p className="contactHeading text-center mt-5">
-              Contact-us
-            </p>
+            <p className="contactHeading text-center mt-5">Contact-us</p>
             <div className="col-md-6">
               <div className="formdiv">
                 <form action="">
@@ -115,13 +115,13 @@ const Contact = () => {
                         <p className="contact">Connect with us :</p>
                         <div class="social-icons">
                           <Link to="/">
-                          <i class="bi bi-facebook"></i>
+                            <i class="bi bi-facebook"></i>
                           </Link>
                           <Link to="/">
-                          <i class="bi bi-twitter"></i>
+                            <i class="bi bi-twitter"></i>
                           </Link>
                           <Link to="/">
-                          <i class="bi bi-instagram"></i>
+                            <i class="bi bi-instagram"></i>
                           </Link>
                           <Link to="/">
                             <i class="bi bi-linkedin"></i>
@@ -139,9 +139,7 @@ const Contact = () => {
               <div className="col-md-4">
                 <p className="contactHeading">TSE advantage</p>
                 <p className="para">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Animi, nisi! Doloremque adipisci aliquid ea commodi tempora
-                  repudiandae ex maiores modi!
+                  The <b>TSE</b> Institute excels with accredited programs, positive reviews, and high success rates. Its comprehensive, updated curriculum covers key trading topics. 
                 </p>
               </div>
               <div className="col-md-4">
@@ -158,7 +156,7 @@ const Contact = () => {
                     <p className="para">
                       <b>Experienced Faculty</b>
                     </p>
-                    <p className="para">Lorem ipsum dolor sit amet.</p>
+                    <p className="para">Industry practical knowledge.</p>
                   </div>
                 </div>
                 <div
@@ -174,7 +172,7 @@ const Contact = () => {
                     <p className="para">
                       <b>Practical Approach</b>
                     </p>
-                    <p className="para">Lorem ipsum dolor sit amet.</p>
+                    <p className="para">world strategies application.</p>
                   </div>
                 </div>
                 <div
@@ -190,7 +188,7 @@ const Contact = () => {
                     <p className="para">
                       <b>Best Support</b>
                     </p>
-                    <p className="para">Lorem ipsum dolor sit amet.</p>
+                    <p className="para">Expert personalized support.</p>
                   </div>
                 </div>
               </div>
@@ -208,7 +206,7 @@ const Contact = () => {
                     <p className="para">
                       <b>International Stock Marketing</b>
                     </p>
-                    <p className="para">Lorem ipsum dolor sit amet.</p>
+                    <p className="para">Global stock market expertise.</p>
                   </div>
                 </div>
                 <div
@@ -222,9 +220,9 @@ const Contact = () => {
                   <img width={"15%"} src={building} alt="" />
                   <div>
                     <p className="para">
-                      <b>International Stock Marketing</b>
+                      <b>Global Stock Marketing</b>
                     </p>
-                    <p className="para">Lorem ipsum dolor sit amet.</p>
+                    <p className="para">Worldwide trading platform.</p>
                   </div>
                 </div>
               </div>

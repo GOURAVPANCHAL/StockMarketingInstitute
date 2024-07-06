@@ -1,10 +1,10 @@
 import React from "react";
-import professionalImage from "../../Navbar/assets/professional.jpg";
-import trading1 from "../../../images/trading1.avif";
+import trading1 from "../../../images/stock3.png";
+import professionalImage  from "../../../images/ai3.jpg";
 const AdvanceTechnicalCourse = () => {
   return (
     <div className="container mt-5 mb-5">
-      <p className="allheading">Professional Trader Course</p>
+      <p className="allheading">Advance Technical Course</p>
       <div className="row">
         <div className="col-md-5">
           <img
@@ -16,7 +16,7 @@ const AdvanceTechnicalCourse = () => {
           />
         </div>
         <div className="col-md-7">
-          <p>
+          <p className="para">
             This advanced technical analysis course is designed for individuals
             with prior knowledge of the stock market who seek a deeper
             understanding of technical charts. The course offers an in-depth

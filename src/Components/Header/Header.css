@@ -8,6 +8,11 @@
     position: relative;
     top: 20%;
 }
+.intraday{
+    color: #005584;
+    font-size: 22px;
+    font-weight: 700;
+}
 .headingMain{
     color: #181D38;
     font-size: 45px;
@@ -16,16 +21,46 @@
     top: 20%;
     font-family: sans-serif;
 }
+.fontsize{
+    font-size: 28px;
+}
+.diplomaheading{
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+    border-bottom: 2px solid lightgray;
+}
+
+.diploma{
+    border-bottom: 1px solid lightgray;
+}
+.forclientstyle{
+    width: 60%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+
 @media screen and (max-width:600px) {
     .headingMain{
-        font-size: 28px;
+        font-size: 26px;
         top: 0%;
+    }
+    .diploma{
+        max-width: 100%; 
+        margin: auto;
+        border-bottom: 1px solid lightgray;
     }
     .heading{
         color: #005584;
-        font-size: 22px;
+        font-size: 16px;
         font-weight: 700;
         position: relative;
         top: 5%;
+    }
+    .intraday{
+        color: #005584;
+        font-size: 16px;
+        font-weight: 700;
     }
 }

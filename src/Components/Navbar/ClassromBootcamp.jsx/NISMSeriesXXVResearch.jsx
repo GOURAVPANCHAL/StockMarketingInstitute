@@ -1,10 +1,16 @@
 import React from "react";
+import stock from "../../../images/stock12.png";
 
 const NISMSeriesXXVResearch = () => {
   return (
     <div className="container">
       <div className="container mt-5 mb-5">
         <p className="allheading">NISM Research Analyst</p>
+        <div className="row">
+          <div className="col-md-6">
+            <img src={stock} width={'100%'} alt="stock" />
+          </div>
+          <div className="col-md-6">
         <p className="para" style={{ color: "gray" }}>
           About <b> “TSE Research Analyst </b> is unique program designed for
           all those who wish to become a research analyst, who wishes to give
@@ -22,6 +28,19 @@ const NISMSeriesXXVResearch = () => {
           house, and other financial institutions to have certified research
           analyst who has passed SEBI NISM SERIES XV certification.{" "}
         </p>
+
+          </div>
+          <div className="col-md-6 mt-5">
+          <p className="para">
+          Technical analysis has become very much popular in the past decade and
+          one can predict the moves of the market viewing the historical data.
+          Various charts, indicators, graph help to predict the movement of the
+          market and price levels is predicted. Thus one learns patterns,
+          trends, and moves of the market in technical analysis, fundamental
+          analysis are a method to evaluate the stock/security by attempting to
+          measure the intrinsic value of the stock. It is based on event, news,
+          data analysis.
+        </p>
         <p className="para">
           Technical analysis has become very much popular in the past decade and
           one can predict the moves of the market viewing the historical data.
@@ -32,6 +51,13 @@ const NISMSeriesXXVResearch = () => {
           measure the intrinsic value of the stock. It is based on event, news,
           data analysis.
         </p>
+          </div>
+          <div className="col-md-6 mt-5">
+                        <img src={stock} width={'100%'} alt="stock" />
+
+          </div>
+        </div>
+       
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">

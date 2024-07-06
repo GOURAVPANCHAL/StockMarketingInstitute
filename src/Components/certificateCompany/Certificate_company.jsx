@@ -35,7 +35,7 @@ const Certificate_company = () => {
                     Returns.
                   </p>
                 </div>
-                <div className="d-flex" style={{justifyContent:'space-evenly', alignItems:'center', }}>
+                <div className="d-flex" style={{justifyContent:'space-evenly', alignItems:'center', marginBottom:'1rem' }}>
                   <img width={"10%"} style={{backgroundColor:'white'}} height={'100%'} src={image3} alt="" />
                   <p className="TSE">
                     Housewives and Retired Professional who want to generate

@@ -26,8 +26,8 @@ const TrainingSeminar = () => {
               providing participants with the knowledge and skills necessary to
               excel in high-stakes trading environments.
             </p>
-            <p className="para">
-              <b>What You Will Learn</b>
+            <p className="heading">
+              <b><u>What You Will Learn</u></b>
             </p>
             <p className="para">
               <b>Advanced Trading Strategies:</b> Participants gain an
@@ -59,8 +59,8 @@ const TrainingSeminar = () => {
               learned strategies in a practical setting. This hands-on
               experience is invaluable for developing real-world trading skills.
             </p>
-            <p className="para">
-              <b>Benefits of Attending</b>
+            <p className="heading">
+              <b><u>Benefits of Attending</u></b>
             </p>
             <p className="para">
               <b>Expert Guidance:</b> Learn from a mentor who has successfully

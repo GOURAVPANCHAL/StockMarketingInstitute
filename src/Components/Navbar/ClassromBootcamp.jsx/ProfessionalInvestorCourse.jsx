@@ -1,15 +1,20 @@
 import React from "react";
-import investor from "../assets/invertor.jpg";
+import stock2  from "../../../images/ai2.jpg";
+import investor from "../../../images/stock2.png";
 const ProfessionalInvestorCourse = () => {
   return (
     <>
-      <div className="back">
-        <div className="overlay">
-          <div className="container mt-5 mb-5">
+
+              <div className="container mt-5 mb-5">
             <p className="allheading">Professional Investor Course</p>
+          <div className="row">
+            <div className="col-md-6">
+              <img src={stock2} width={'100%'} alt="" />
+            </div>
+            <div className="col-md-6">
             <div className="row">
               <div className="col-md-12">
-                <p className="para" style={{ color: "white" }}>
+                <p className="para">
                   As a beginner in the stock market, staying in sync with Top
                   Indexes Nifty & Sensex and being in a consistent profit, or
                   seeking a stockbroker who gives discounted brokerage; can be
@@ -26,7 +31,7 @@ const ProfessionalInvestorCourse = () => {
                   control & Investing.com and efficiently strategize your
                   trades.
                 </p>
-                <p className="para" style={{ color: "white" }}>
+                <p className="para">
                   Professional Trader - Ultimate Trading program is, by far, the
                   most advanced, all-encompassing and a thorough trading course
                   in the Financial market.  Basics of the Stock Market
@@ -34,6 +39,9 @@ const ProfessionalInvestorCourse = () => {
               </div>
             </div>
           </div>
+            </div>
+          </div>
+          
           <div className="container">
             <div className="row">
               <div className="col-md-7">
@@ -398,8 +406,6 @@ const ProfessionalInvestorCourse = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
     </>
   );
 };

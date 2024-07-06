@@ -3,23 +3,11 @@ import React from "react";
 const LifeAtTse = () => {
   return (
     <div>
-      <div className="partnerImage">
-        <div className="overlay">
-          <div className="container">
-            <p 
-            className="imageheading"
-            >
-              Life <span style={{ color: "#4e7733", fontWeight: "700" }}>
-                At TSE
-              </span>
-            </p>
-          </div>
-        </div>
-      </div>
+      <p className="head">Life <span style={{color:'green'}}> At TSE </span></p>
       <div>
         <div className="container">
           <div className="row mt-5">
-            <div className="col-md-6">
+            <div className="col-md-6" style={{borderRight:'1px solid green'}}>
             <div className="tse-content">
             <h2 className="allheading mb-5" style={{textAlign:'start'}}>Exploring the Stock Market Journey with TSE Institute</h2>
             <p className="heading">Wealth Creation Opportunities</p>

@@ -1,10 +1,17 @@
 import React from "react";
+import stock from "../../../images/stock11.png";
+import ai from "../../../images/ai13.jpg"
 
 const NISMSeriesVIIIDerivativesMarket = () => {
   return (
     <div className="container">
       <div className="container mt-5 mb-5">
         <p className="allheading">Derivative Market Module - NISM CERTIFICATION</p>
+        <div className="row">
+          <div className="col-md-6">
+          <img width={'100%'} src={ai} alt="" />
+          </div>
+          <div className="col-md-6">
         <p className="para" style={{ color: "gray" }}>
           NISM Derivative Market (NSE) Dealer Module Certification & Exam
           Preparation by TSEINSTITUTE Leading Stock Market Institute For
@@ -22,7 +29,10 @@ const NISMSeriesVIIIDerivativesMarket = () => {
           who wants to add value to resume when applying for jobs in the
           financial sector/ IT/ BPO.
         </p>
-        <p className="para">
+
+          </div>
+          <div className="col-md-6">
+          <p className="para mt-5">
           <b>Unique Features of Derivative Market Module</b>
         </p>
         <p className="para" style={{ color: "gray" }}>
@@ -52,6 +62,13 @@ const NISMSeriesVIIIDerivativesMarket = () => {
           # NCFM Certificates are subjected to appearance for the exam at the
           NSE Center. You will get 100% preparation at the branch.
         </p>
+          </div>
+          <div className="col-md-6 mt-5">
+          <img width={'100%'} src={stock} alt="" />
+
+          </div>
+        </div>
+        
         <p className="heading">DETAILED CURRICULUM</p>
 
         <div class="accordion accordion-flush" id="accordionFlushExample">

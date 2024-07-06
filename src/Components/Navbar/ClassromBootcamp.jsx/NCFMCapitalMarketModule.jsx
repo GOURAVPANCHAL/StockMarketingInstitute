@@ -1,10 +1,17 @@
 import React from "react";
+import stock from "../../../images/stock10.png";
+import ai from "../../../images/ai12.jpg";
 
 const NCFMCapitalMarketModule = () => {
   return (
     <div className="container">
       <div className="container mt-5 mb-5">
         <p className="allheading">Capital Market Module - NCFM CERTIFICATION</p>
+        <div className="row">
+          <div className="col-md-6">
+            <img width={'100%'} height={'100%'} src={ai} alt="" />
+          </div>
+          <div className="col-md-6">
         <p className="para" style={{ color: "gray" }}>
           NCFM Capital Market (NSE) Dealer Module Certification & Exam
           Preparation by TSE Leading Stock Market Institute For Financial Market
@@ -16,7 +23,10 @@ const NCFMCapitalMarketModule = () => {
           as a capital market dealer to get a job in National Stock Exchange
           (NSE).
         </p>
-        <p className="para" style={{ color: "gray" }}>
+
+          </div>
+          <div className="col-md-6 mt-5">
+          <p className="para" style={{ color: "gray" }}>
           NCFM Capital market module is one of the most important programs of
           the National Stock Exchange (NSE). It is a must-do module to get a job
           in Stock Broking Company. Aspirants planning to start their own stock
@@ -40,6 +50,12 @@ const NCFMCapitalMarketModule = () => {
           # NCFM Certificates are subjected to appearance for the exam at the
           NSE Center. You will get 100% preparation at the branch.
         </p>
+          </div>
+          <div className="col-md-6 mt-5">
+          <img width={'100%'} src={stock} alt="" />
+          </div>
+        </div>
+        
         <p className="heading">DETAILED CURRICULUM</p>
 
         <div class="accordion accordion-flush" id="accordionFlushExample">

@@ -2,7 +2,7 @@ import React from "react";
 import "../ChooseInstitute/chose.css";
 import tradingImage from "../../images/best-trading.avif";
 import image from "../../images/trading.jpg";
-import img from "../../images/img_1.png";
+import img from "../../images/ai14.jpg";
 import learn1 from "../../images/learnCourse1.png";
 import learn2 from "../../images/learnCourse2.png";
 import learn3 from "../../images/learnCourse3.png";
@@ -23,52 +23,44 @@ const ChoseInstitute = () => {
           </div>
           <div className="col-md-6">
             <div>
-              <ul>
-                <li className="about">
-                  <i class="bi bi-check2-circle aboutIcon"></i>&nbsp;Top Tier
-                  Tranners
-                </li>
-                <li className="about">
-                  <i class="bi bi-check2-circle aboutIcon"></i>
-                  &nbsp;Industry-Ready Skills
-                </li>
-                <li className="about">
-                  <i class="bi bi-check2-circle aboutIcon"></i>&nbsp;Performance
-                  Analytics
-                </li>
-                <li className="about">
-                  <i class="bi bi-check2-circle aboutIcon"></i>&nbsp;Best In
-                  Doubt Handling
-                </li>
-                <li className="about">
-                  <i class="bi bi-check2-circle aboutIcon"></i>
-                  &nbsp;Personalized Mentorship
-                </li>
-                <li className="about">
-                  <i class="bi bi-check2-circle aboutIcon"></i>
-                  &nbsp;Comprehensive Curriculum
-                </li>
-                <li className="about">
-                  <i class="bi bi-check2-circle aboutIcon"></i>
-                  &nbsp;Networking Opportunities
-                </li>
-                <li className="about">
-                  <i class="bi bi-check2-circle aboutIcon"></i>
-                  &nbsp;Cutting-Edge Trading Tools
-                </li>
-                <li className="about">
-                  <i class="bi bi-check2-circle aboutIcon"></i>
-                  &nbsp;Engaging Live Market Session
-                </li>
-                <li className="about">
-                  <i class="bi bi-check2-circle aboutIcon"></i>
-                  &nbsp;Hands-On Experience With Industry Experts
-                </li>
-                <li className="about">
-                  <i class="bi bi-check2-circle aboutIcon"></i>
-                  &nbsp;Proprietary Trading Floor Placement Opportunities
-                </li>
-              </ul>
+            <ul>
+    <li className="about">
+        <i class="bi bi-check2-circle aboutIcon"></i>&nbsp;Top Tier Trainers
+        <ul>
+            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> Industry experts with years of experience.</li>
+            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> Award-winning educators.</li>
+        </ul>
+    </li>
+    <li className="about">
+        <i class="bi bi-check2-circle aboutIcon"></i>&nbsp;Industry-Ready Skills
+        <ul>
+            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> Practical trading techniques.</li>
+            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> Advanced market analysis.</li>
+        </ul>
+    </li>
+    <li className="about">
+        <i class="bi bi-check2-circle aboutIcon"></i>&nbsp;Performance Analytics
+        <ul>
+            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> Real-time performance tracking.</li>
+            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> Detailed feedback reports.</li>
+        </ul>
+    </li>
+    <li className="about">
+        <i class="bi bi-check2-circle aboutIcon"></i>&nbsp;Best In Doubt Handling
+        <ul>
+            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> 24/7 support for queries.</li>
+            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> Dedicated doubt-clearing sessions.</li>
+        </ul>
+    </li>
+    <li className="about">
+        <i class="bi bi-check2-circle aboutIcon"></i>&nbsp;Personalized Mentorship
+        <ul>
+            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> One-on-one mentoring sessions.</li>
+            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> Customized learning paths.</li>
+        </ul>
+    </li>
+</ul>
+
             </div>
           </div>
         </div>
@@ -80,60 +72,54 @@ const ChoseInstitute = () => {
         </marquee>
       </div>
 
-      
-      
       <section className="mt-5 mb-5">
         <div className="container">
           <div className="row">
             <div className="col-md-6">
               <img width="100%" src={img} alt="trading" />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 stokmarketing">
               <div className="stockmarket">
-                <h1 className="allheading">Best Stock Marketing Institute</h1>
+                <h1 className="allheading">Best Stock Market Institute</h1>
                 <div className="mt-4">
-                  <h5>
+                  <p className="heading">
                     <b>Accreditation and Reputation:</b>
-                  </h5>
+                  </p>
                   <ul>
                     <li>
-                      Ensure the mentor is accredited by recognized financial
-                      education bodies.
+                      <b> Recognized Accreditation:</b> Accredited by prominent
+                      financial education bodies, ensuring the highest standards
+                      of education.
                     </li>
                     <li>
-                      Look for positive reviews and testimonials from former
-                      students.
+                      <b> Positive Reviews:</b> Consistently receives
+                      outstanding reviews and testimonials from former students.
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h5>
+                  <p className="heading">
                     <b>Comprehensive Curriculum:</b>
-                  </h5>
+                  </p>
                   <ul>
                     <li>
-                      The program cover a broad range of topics, including
-                      technical analysis, fundamental analysis, risk management,
-                      and trading strategies.
+                   <b> Wide Range of Topics:</b> Covers a broad spectrum of topics including technical analysis, fundamental analysis.
                     </li>
                     <li>
-                      Updated content to reflect the latest market trends and
-                      tools.
+                   <b> Updated Content:</b> Curriculum is continuously updated to reflect the latest market trends and tools.
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h5>
+                  <p className="heading">
                     <b> Experienced Instructors:</b>
-                  </h5>
+                  </p>
                   <ul>
                     <li>
-                      Mentors have substantial real-world trading experience and
-                      a strong academic background.
+                   <b> Real-World Experience:</b> Instructors have substantial real-world trading experience.
                     </li>
                     <li>
-                      Check for credentials and past performance in the stock
-                      market.
+                   <b> Strong Academic Background:</b> Mentors have a strong academic background in finance and economics.
                     </li>
                   </ul>
                 </div>

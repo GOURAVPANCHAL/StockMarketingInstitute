@@ -57,9 +57,6 @@ const AdmissionProcedure = () => {
 
     <>
     <div>
-      <img src={image} width={'100%'} alt="" />
-    </div>
-    <div>
       <div className="admisstionSection mt-5">
         <div className="container">
           <div className="row">

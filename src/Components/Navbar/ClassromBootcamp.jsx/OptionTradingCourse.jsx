@@ -1,39 +1,24 @@
 import React from "react";
-import professionalImage from "../../Navbar/assets/professional.jpg";
-import trading1 from "../../../images/trading1.avif";
+import trading1  from "../../../images/ai5.jpg";
+import professionalImage from "../../../images/stock4.png";
 const OptionTradingCourse = () => {
   return (
     <>
       <div className="container mt-5 mb-5">
         <p className="allheading">Option Trading Course</p>
         <div className="row">
-          {/* <div className="col-md-5">
-          <img
-            style={{ borderRadius: "30px 0px 0px 30px" }}
-            width={"100%"}
-            height={"100%"}
-            src={professionalImage}
-            alt=""
-          />
-        </div> */}
-          {/* <div className="col-md-7">
-          <p>
-            This advanced technical analysis course is designed for individuals
-            with prior knowledge of the stock market who seek a deeper
-            understanding of technical charts. The course offers an in-depth
-            exploration of advanced chart patterns, technical indicators, and
-            sophisticated trading strategies. Participants will gain expertise
-            in analyzing complex chart formations, interpreting candlestick
-            patterns, and utilizing advanced volume and trend analysis
-            techniques. Additionally, the course covers Fibonacci analysis,
-            Elliott Wave theory, and the fundamentals of algorithmic and
-            quantitative trading, all while emphasizing robust risk management
-            practices. Perfect for experienced traders looking to enhance their
-            technical analysis skills and elevate their trading strategies
-          </p>
-        </div> */}
           <div className="row mt-5">
+          <div className="col-md-5">
+              <img src={trading1} width={"100%"} alt="" />
+            </div>
             <div className="col-md-7">
+                <p className="para">
+                  You can become Equity Analyst & Stock Analyst and you become
+                  fit for various other posts in various other verticals
+                  depending on your overall Qualifications
+                </p>
+            </div>
+            <div className="col-md-6 mt-5">
               <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingOne">
@@ -53,7 +38,6 @@ const OptionTradingCourse = () => {
                     aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    {/* <p className='heading'>Detailed Curriculam</p> */}
                     <div class="accordion-body">
                       <p className="heading">INTRODUCTION TO OPTIONS</p>
                       <ol>
@@ -161,17 +145,15 @@ const OptionTradingCourse = () => {
                     </div>
                   </div>
                 </div>
-                <p className="heading">Career Opportunity</p>
-                <p className="para">
-                  You can become Equity Analyst & Stock Analyst and you become
-                  fit for various other posts in various other verticals
-                  depending on your overall Qualifications
-                </p>
+                
               </div>
+              832096998
+
             </div>
-            <div className="col-md-5">
-              <img src={trading1} width={"100%"} alt="" />
+            <div className="col-md-6 mt-5">
+            <img src={professionalImage} width={"100%"} alt="" />
             </div>
+           
           </div>
         </div>
       </div>

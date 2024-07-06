@@ -24,7 +24,7 @@ const Chairmen = () => {
             <p className="para">
               Recognizing Financial Skill Service as a crucial employable skill,
               the National Skill Development Corporation, a Government of India
-              initiative, led CBSE to introduce a Financial Market Management
+              initiative, led by CBSE to introduce a Financial Market Management
               course. This joint certification program with NSE began in the
               2007-08 academic year under vocational education at the senior
               secondary level.
@@ -55,7 +55,7 @@ const Chairmen = () => {
             </p>
             <p className="para">
               <b>
-                o all aspiring financial learners, I urge you to seize the
+                All aspiring financial learners, I urge you to seize the
                 opportunities presented by our courses, poised to enrich your
                 personal and professional lives with a sound financial balance.
               </b>
