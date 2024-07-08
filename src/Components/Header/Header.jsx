@@ -5,7 +5,7 @@ import image2 from "../../images/carousel2.jpg";
 import image3 from "../../images/carousel3.jpg";
 import image4 from "../../images/carousel4.jpg";
 import image5 from "../../images/carousel5.jpg";
-
+import image6 from "../../images/banner.jpg";
 import company1 from "../../images/ncdex.png";
 import company2 from "../../images/nism.png";
 import company3 from "../../images/nse.png";
@@ -14,10 +14,11 @@ import company5 from "../../images/amfi.png";
 import company6 from "../../images/bse.png";
 import "../Header/Header.css";
 import victorImage from "../../images/cartoon.png";
+import { Link } from "react-router-dom";
 const Header = () => {
   var settings = {
     dots: true,
-    autoplay:true,
+    autoplay: true,
     infinite: true,
     speed: 500,
     slidesToShow: 5,
@@ -60,7 +61,7 @@ const Header = () => {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src={image5}
+              src={image6}
               class="d-block"
               width={"100%"}
               height={"100%"}
@@ -69,7 +70,7 @@ const Header = () => {
           </div>
           <div class="carousel-item">
             <img
-              src={image2}
+              src={image5}
               class="d-block"
               width={"100%"}
               height={"100%"}
@@ -103,6 +104,15 @@ const Header = () => {
               alt="images3"
             />
           </div>
+          <div class="carousel-item">
+            <img
+              src={image2}
+              class="d-block"
+              width={"100%"}
+              height={"100%"}
+              alt="images3"
+            />
+          </div>
         </div>
         <button
           class="carousel-control-prev"
@@ -123,9 +133,16 @@ const Header = () => {
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <div className="fixedCalling">
+        <a href="tel:+9871169588">
+          <i className="bi bi-telephone"></i>
+        </a>
+      </div>
       <div className="container">
         <p className="allheading mt-3 mb-5">
-          <b><u> Enlightening The Minds Shaping The Future</u></b>
+          <b>
+            <u> Enlightening The Minds Shaping The Future</u>
+          </b>
         </p>
         <div className="row mt-5">
           <div className="col-md-8">
@@ -164,8 +181,8 @@ const Header = () => {
         </div>
       </div>
       <div className="container bg-white p-1 mt-5">
-      <p className="allheading diploma mt-3 mb-5">
-      Diploma, Certification, Degree and Preparation For   
+        <p className="allheading diploma mt-3 mb-5">
+          Diploma, Certification, Degree and Preparation For
         </p>
         <div className="slider-container">
           <Slider {...settings}>

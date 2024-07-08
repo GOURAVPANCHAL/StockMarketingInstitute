@@ -131,11 +131,6 @@
       color: #fff;
       text-decoration: none;
   }
-  
-  
-  
-  
-  
   .footer-social-links {
       bottom: 0;
       height: 54px;
@@ -159,9 +154,10 @@
   
   .footer-social-link.linkedin {
       height: 45px;
-      left: 3px;
+      left: 5px;
       top: 11px;
       width: 45px;
+      font-size: 20px;
   }
   
   .footer-social-link {
@@ -194,24 +190,22 @@
   }
   
   .footer-social-link.twitter {
-      height: 50px;
-      left: 62px;
-      top: 3px;
-      width: 50px;
+      left: 60px;
+      top: -3px;
+      font-size: 30px;
   }
   
   .footer-social-link.youtube {
-      height: 45px;
-      left: 123px;
-      top: 12px;
-      width: 45px;
+    left: 125px;
+    top: 10px;
+    font-size: 20px;
   }
   
   .footer-social-link.github {
-      height: 60px;
-      left: 169px;
       top: 7px;
-      width: 60px;
+      left: 178px;
+    top: 10px;
+    font-size: 20px;
   }
   
   .footer-copyright {

@@ -89,6 +89,15 @@ ul li a:hover {
   color: rgb(78 119 51) !important;
   font-weight: 600 !important;
 }
+.quora{
+  background-color: black;
+  border-radius: 2px;
+}
+.quora a{
+  font-size: 12px;
+  color: red;
+  font-weight: 600;
+}
 .whatsapp {
   background: #25d366;
   border-radius: 2px;

@@ -6,7 +6,6 @@ import Header from "../Header/Header";
 import Courses from "../Courses/Courses";
 import ChoseInstitute from "../ChooseInstitute/ChoseInstitute";
 import Faq from "../Faq/Faq";
-import MeetOurTeam from "../MeetOurTeam/MeatOurTeam";
 import Testimonial from "../testimonial/Testimonial";
 import AboutForm from "../aboutForm/AboutForm";
 const Home = () => {
@@ -17,7 +16,6 @@ const Home = () => {
       <Certificate_company />
       <ChoseInstitute />
       <LearnCourse />
-      {/* <MeetOurTeam /> */}
       <Testimonial />
       <AboutForm />
       <OurCompany />

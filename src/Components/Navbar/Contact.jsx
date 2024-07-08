@@ -11,7 +11,7 @@ const Contact = () => {
   useEffect(() => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   }, []);
   return (
@@ -106,25 +106,39 @@ const Contact = () => {
                       <div className="maindiv mt-4">
                         <div>
                           <p className="contact">Call Us:</p>
-                          <Link className="contactus" to="">
-                            +91 9599245542
-                          </Link>
+                          <div className="d-flex gap-3">
+                            <Link className="contactus" to="tel:9599245542">
+                              +91 9599245542
+                            </Link>
+
+                            <Link className="contactus" to="tel:9871169588">
+                              +91 9871169588
+                            </Link>
+                          </div>
                         </div>
                       </div>
                       <div class="social-media">
                         <p className="contact">Connect with us :</p>
                         <div class="social-icons">
-                          <Link to="/">
-                            <i class="bi bi-facebook"></i>
-                          </Link>
-                          <Link to="/">
-                            <i class="bi bi-twitter"></i>
-                          </Link>
-                          <Link to="/">
+                          <Link target="blank" to="https://www.instagram.com/reel/C89AEbFycQm/?igsh=MWRycWtpdzZqYmpvcg%3D%3D">
                             <i class="bi bi-instagram"></i>
                           </Link>
-                          <Link to="/">
+                          <Link target="blank" to="https://www.youtube.com/@tradingsmartedgeacademy">
+                            <i class="bi bi-youtube"></i>
+                          </Link>
+                          <Link target="blank" to="https://api.whatsapp.com/send?phone=+919079036042">
+                            <i class="bi bi-whatsapp"></i>
+                          </Link>
+                          <Link target="blank" to="https://www.linkedin.com/company/trading-smart-edge/about/'">
                             <i class="bi bi-linkedin"></i>
+                          </Link>
+                          <Link
+                            target="blank"
+                            to={
+                              "https://www.quora.com/profile/Trading-Smart-Edge"
+                            }
+                          >
+                            <i class="bi bi">Q</i>
                           </Link>
                         </div>
                       </div>
@@ -139,7 +153,9 @@ const Contact = () => {
               <div className="col-md-4">
                 <p className="contactHeading">TSE advantage</p>
                 <p className="para">
-                  The <b>TSE</b> Institute excels with accredited programs, positive reviews, and high success rates. Its comprehensive, updated curriculum covers key trading topics. 
+                  The <b>TSE</b> Institute excels with accredited programs,
+                  positive reviews, and high success rates. Its comprehensive,
+                  updated curriculum covers key trading topics.
                 </p>
               </div>
               <div className="col-md-4">

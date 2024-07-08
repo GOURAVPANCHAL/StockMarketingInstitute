@@ -1,6 +1,6 @@
 import React from "react";
 import '../../Navbar/Navbar.css'
-import image from '../../../images/mision_1.png'
+import image from '../../../images/banner.jpg'
 const AboutInstitute = () => {
   return (
     <div className="backgroundd mb-5">
