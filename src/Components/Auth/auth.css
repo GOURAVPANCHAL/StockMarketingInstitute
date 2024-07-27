@@ -1,0 +1,64 @@
+.auth-section{
+    width: 100%;
+}
+
+.auth-section .auth-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.auth-section .auth-container .auth-heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.auth-section .auth-container .auth-heading h2{
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.auth-section .auth-container .auth-heading a{
+    padding: 8px 15px;
+    background-color: rgb(31, 31, 138);
+    color: white;
+}
+.allblogimage{
+    width: 100px;
+    height: 100px;
+}
+.table{
+    max-width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.update{
+    border: none;
+    background-color: rgb(24, 29, 56) !important;
+    color: white !important;
+}
+.delete{
+    border: none;
+    background-color: red !important;
+    color: white !important;
+}
+.updateblogbtn{
+    border: 0;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(24, 29, 56);
+    color: white;
+    border-radius: 10px;
+
+}
+.btnupdate{
+    display: flex;
+    justify-content: center;
+}

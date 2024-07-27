@@ -36,16 +36,17 @@ import PlacementPartners from "./Components/Resources/PlacementPartners";
 import BookRecommended from "./Components/Resources/BookRecommended";
 import LifeAtTSE from "./Components/Resources/LifeAtTse";
 import Gallery from "./Components/Resources/Gallery";
-
-
+import Auth from "./Components/Auth/Auth";
+import UpdateBlog from "./Components/Auth/UpdateBlog";
+import CreateBlog from "./Components/Auth/CreateBlog";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-      <Navbar />
+        <Navbar />
         <Routes>
-          <Route exact path="/" element ={<Home/>}/>
+          <Route exact path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/institute" element={<TheInstitute />} />
           <Route path="/resources" element={<Resources />} />
@@ -57,26 +58,68 @@ function App() {
           <Route path="/placement-story" element={<Placement />} />
           <Route path="/training-seminar" element={<TrainingSeminar />} />
           <Route path="/corporate" element={<Corporate />} />
-          <Route path="/Professional-Trader-Course" element={<ProfessionalTraderCourse />} />
-          <Route path="/Professional-Investor-Course" element={<ProfessionalInvestorCourse />} />
-          <Route path="/Advance-Technical-Course" element={<AdvanceTechnicalCourse />} />
-          <Route path="/Option-Trading-Course" element={<OptionTradingCourse />} />
-          <Route path="/Fundamental-Analysis" element={<FundamentalAnalysis />} />
-          <Route path="/Intraday-Trading-Setup" element={<IntradayTradingSetup />} />
-          <Route path="/Equity-Market-Trader" element={<EquityMarketTrader />} />
+          <Route
+            path="/Professional-Trader-Course"
+            element={<ProfessionalTraderCourse />}
+          />
+          <Route
+            path="/Professional-Investor-Course"
+            element={<ProfessionalInvestorCourse />}
+          />
+          <Route
+            path="/Advance-Technical-Course"
+            element={<AdvanceTechnicalCourse />}
+          />
+          <Route
+            path="/Option-Trading-Course"
+            element={<OptionTradingCourse />}
+          />
+          <Route
+            path="/Fundamental-Analysis"
+            element={<FundamentalAnalysis />}
+          />
+          <Route
+            path="/Intraday-Trading-Setup"
+            element={<IntradayTradingSetup />}
+          />
+          <Route
+            path="/Equity-Market-Trader"
+            element={<EquityMarketTrader />}
+          />
           <Route path="/Diploma-Financial" element={<DiplomaFinancial />} />
-          <Route path="/Advance-Diploma-Financial" element={<AdvanceDiplomaFinancial />} />
-          <Route path="/NCFM-Capital-Market-Module" element={<NCFMCapitalMarketModule />} />
-          <Route path="/NISM-Series-VIII-Derivatives" element={<NISMSeriesVIIIDerivativesMarket />} />
-          <Route path="/NISM-Series-I-Currency-Market" element={<NISMSeriesICurrency />} />
-          <Route path="/NISM-Series-XXV-Research-Analyst" element={<NISMSeriesXXVResearch />} />
+          <Route
+            path="/Advance-Diploma-Financial"
+            element={<AdvanceDiplomaFinancial />}
+          />
+          <Route
+            path="/NCFM-Capital-Market-Module"
+            element={<NCFMCapitalMarketModule />}
+          />
+          <Route
+            path="/NISM-Series-VIII-Derivatives"
+            element={<NISMSeriesVIIIDerivativesMarket />}
+          />
+          <Route
+            path="/NISM-Series-I-Currency-Market"
+            element={<NISMSeriesICurrency />}
+          />
+          <Route
+            path="/NISM-Series-XXV-Research-Analyst"
+            element={<NISMSeriesXXVResearch />}
+          />
           <Route path="/admission-procedure" element={<AdmissionProcedure />} />
           <Route path="/testimonial" element={<Testimonial />} />
-          <Route path="/career_opportunities" element={<CareerOpportunities />} />
+          <Route
+            path="/career_opportunities"
+            element={<CareerOpportunities />}
+          />
           <Route path="/placement-partner" element={<PlacementPartners />} />
           <Route path="/book-recommended" element={<BookRecommended />} />
-          <Route path="/life-at-tse" element={<LifeAtTSE/>} />
-          <Route path="/gallery" element={<Gallery/>} />
+          <Route path="/life-at-tse" element={<LifeAtTSE />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/admin/auth" element={<Auth />} />
+          <Route path="/admin/auth/update-blog" element={<UpdateBlog />} />
+          <Route path="/admin/auth/create-blog" element={<CreateBlog />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -101,7 +101,7 @@ const Footer = () => {
                   </li>
                   <li class="menu-item menu-item-type-custom menu-item-object-custom">
                     <Link rel="noopener noreferrer" to={"/admission-procedure"}>
-                      <i class="bi bi-chevron-double-right"></i> Addmission
+                      <i class="bi bi-chevron-double-right"></i> Admission
                       Procedure
                     </Link>
                   </li>
@@ -183,7 +183,7 @@ const Footer = () => {
               <Link class="footer-social-link youtube" to="https://www.linkedin.com/company/trading-smart-edge/about/">
                 <i className="bi bi-linkedin"></i>
               </Link>
-              <Link class="footer-social-link github" to="https://api.whatsapp.com/send?phone=+919079036042">
+              <Link class="footer-social-link github" to="https://api.whatsapp.com/send?phone=+919871169588 ">
                 <i className="bi bi-whatsapp"></i>
               </Link>
             </div>
