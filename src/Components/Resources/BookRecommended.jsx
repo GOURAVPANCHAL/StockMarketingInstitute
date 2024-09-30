@@ -1,8 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../Resources/resources.css";
+import { Helmet } from "react-helmet";
 const BookRecommended = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   return (
     <>
+     <Helmet>
+        <title>Book Recommendations - Trading Smart Edge</title>
+        <meta
+          name="description"
+          content="Discover recommended books for trading at Trading Smart Edge. Explore titles for beginners, intermediates, and advanced traders to enhance your financial knowledge."
+        />
+        <meta
+          name="keywords"
+          content="Trading Smart Edge, book recommendations, trading books, beginner trading books, advanced trading books, financial literacy"
+        />
+        <meta name="author" content="Trading Smart Edge Team" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       <div>
         <p className="head">
           Book <span style={{ color: "green" }}>Recommended</span>

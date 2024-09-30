@@ -1,15 +1,34 @@
-import React from "react";
+import React, { useEffect } from "react";
 import stock from "../../../images/stock10.png";
 import ai from "../../../images/ai12.jpg";
+import { Helmet } from "react-helmet";
 
 const NCFMCapitalMarketModule = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   return (
+    <>
+     <Helmet>
+        <title>NCFM Capital Market Module - NCFM Certification</title>
+        <meta name="description" content="Enroll in the NCFM Capital Market Module to gain essential skills in capital market operations and earn certifications from NSE and NCFM." />
+        <meta name="keywords" content="NCFM Certification, Capital Market Module, Financial Courses, Stock Market, NSE Certification, Trading Smart Edge" />
+        <meta name="author" content="Hemant Sharma" />
+        <meta property="og:title" content="Capital Market Module - NCFM Certification" />
+        <meta property="og:description" content="Join our NCFM Capital Market Module and enhance your skills in the financial market." />
+        <meta property="og:image" content={ai} />
+        <meta property="og:url" content="https://tradingsmartedge.com/NCFM-Capital-Market-Module" />
+        <meta property="og:site_name" content="Trading Smart Edge" />
+      </Helmet>
     <div className="container">
       <div className="container mt-5 mb-5">
         <p className="allheading">Capital Market Module - NCFM CERTIFICATION</p>
         <div className="row">
           <div className="col-md-6">
-            <img width={'100%'} height={'100%'} src={ai} alt="" />
+            <img width={'100%'} height={'100%'} src={ai} alt="trading smart edge images" />
           </div>
           <div className="col-md-6">
         <p className="para" style={{ color: "gray" }}>
@@ -52,7 +71,7 @@ const NCFMCapitalMarketModule = () => {
         </p>
           </div>
           <div className="col-md-6 mt-5">
-          <img width={'100%'} src={stock} alt="" />
+          <img width={'100%'} src={stock} alt="trading smart edge images" />
           </div>
         </div>
         
@@ -134,6 +153,7 @@ const NCFMCapitalMarketModule = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

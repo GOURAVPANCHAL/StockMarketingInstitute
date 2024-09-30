@@ -1,8 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import '../../Navbar/Navbar.css'
+import { Helmet } from "react-helmet";
 const TheInstitute = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   return (
     <>
+     <Helmet>
+        <title>About The Institute | Trading Smart Edge (TSE)</title>
+        <meta name="description" content="Learn about Trading Smart Edge (TSE), an institute that offers practical financial market courses covering stocks, derivatives, commodities, forex trading, technical and fundamental analysis." />
+        <meta name="keywords" content="Trading Smart Edge, financial market courses, stock trading institute, forex trading, technical analysis, fundamental analysis, financial education, wealth management" />
+        <meta name="author" content="Trading Smart Edge Institute" />
+        <meta property="og:title" content="About The Institute | Trading Smart Edge (TSE)" />
+        <meta property="og:description" content="Join Trading Smart Edge (TSE) to gain practical skills in finance and trading. Explore our range of courses designed for the financial market." />
+        <meta property="og:image" content="https://example.com/path-to-image.jpg" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <div>
         <div className="container mb-5">
           <div className="main">

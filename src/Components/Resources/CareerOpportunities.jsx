@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../images/career.jpg";
 import market from "../../images/career1.jpg";
 import dealer from "../../images/dealer.jpg";
@@ -10,9 +10,16 @@ import risk from "../../images/risk.avif";
 import equity from "../../images/equity.avif"
 import banker from "../../images/banker.avif"
 import technical from "../../images/technical.jpg"
+import { Helmet } from "react-helmet";
 
 
 const CareerOpportunities = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   const content = [
     {
       image: market,
@@ -92,7 +99,15 @@ In this industry, expertise, skill, and experience are often more valuable than 
     },
   ];
   return (
-    <div>
+    <>
+     <Helmet>
+        <title>Career Opportunities in Stock Trading - Trading Smart Edge</title>
+        <meta
+          name="description"
+          content="Explore diverse career opportunities in stock trading, including roles such as Market Research Analyst, Trader, and Investment Consultant. Learn about salary expectations and key responsibilities."
+        />
+        <meta name="keywords" content="Stock Trading, Career Opportunities, Market Research Analyst, Trader, Investment Consultant, Financial Analyst, Stockbroker" />
+      </Helmet>
       <p className="head">What Are The <span style={{color:'green'}}>Career Options In Stock Trading</span></p>
       <div className="container">
         <div className="mt-5 mb-5">
@@ -129,7 +144,7 @@ In this industry, expertise, skill, and experience are often more valuable than 
             {content.map((item) => (
               <>
                 <div className="col-md-5 mb-5">
-                  <img src={item.image} width={"100%"} height={'100%'} alt="" />
+                  <img src={item.image} width={"100%"} height={'100%'} alt="trading smart edge images" />
                 </div>
                 <div className="col-md-7 mb-5">
                   <p className="allheading" style={{textAlign:'start'}}>{item.name}</p>
@@ -151,7 +166,7 @@ In this industry, expertise, skill, and experience are often more valuable than 
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -1,7 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../Navbar/blog.css";
+import { Helmet } from "react-helmet";
 
 const Blog = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   const [showFullContent, setShowFullContent] = useState(false);
   const toggleContent = () => {
     setShowFullContent(!showFullContent);
@@ -187,9 +194,17 @@ const Blog = () => {
     },
   ];
 
-
-
   return (
+    <>
+     <Helmet>
+        <title>Blog - Insights on Stock Market Learning</title>
+        <meta
+          name="description"
+          content="Explore the importance of stock market training and learn how our training institute can guide you to become a successful trader. Gain insights into fund management and high-frequency trading."
+        />
+        <meta name="keywords" content="Stock Market Training, Trading Institute, Fund Managers, High-Frequency Trading, Investment Strategies" />
+      </Helmet>
+
     <div className="container mt-5">
       <div>
         <p className="allheading">
@@ -420,6 +435,7 @@ const Blog = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 

@@ -36,7 +36,7 @@ function AllBlog() {
           <tr>
             <td>1.</td>
             <td>
-              <img className="allblogimage" src={image} alt="" />
+              <img className="allblogimage" src={image} alt="trading smart edge images" />
             </td>
             <td>Hello Blogers</td>
             <td>stock marketing website and give courses</td>
@@ -53,7 +53,7 @@ function AllBlog() {
       {/* <div className='allblog'>
         {blogData.map((item)=>
         <div className="form">
-            <img src={item.image} width={'100%'} alt="" />
+            <img src={item.image} width={'100%'} alt="trading smart edge images" />
             <div className="title">
                 {item.title}
             </div>

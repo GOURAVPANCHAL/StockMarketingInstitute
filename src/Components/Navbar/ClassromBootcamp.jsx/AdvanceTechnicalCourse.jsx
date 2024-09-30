@@ -1,8 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import trading1 from "../../../images/stock3.png";
 import professionalImage  from "../../../images/ai3.jpg";
+import { Helmet } from "react-helmet";
 const AdvanceTechnicalCourse = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   return (
+    <>
+     <Helmet>
+        <title>Advance Technical Course - Trading Smart Edge</title>
+        <meta
+          name="description"
+          content="Enhance your trading skills with our Advanced Technical Analysis Course. Learn chart patterns, indicators, strategies, and risk management."
+        />
+        <meta
+          name="keywords"
+          content="Technical Analysis, Trading Course, Stock Market, Advanced Trading Strategies, Risk Management, Trading Indicators, Fibonacci Analysis, Elliott Wave Theory"
+        />
+        <meta name="author" content="Trading Smart Edge" />
+        <link rel="canonical" href="https://www.tradingsmartedge.com/advance-technical-course" />
+      </Helmet>
     <div className="container mt-5 mb-5">
       <p className="allheading">Advance Technical Course</p>
       <div className="row">
@@ -12,7 +33,7 @@ const AdvanceTechnicalCourse = () => {
             width={"100%"}
             height={"100%"}
             src={professionalImage}
-            alt=""
+            alt="Advance Technical Course"
           />
         </div>
         <div className="col-md-7">
@@ -159,11 +180,12 @@ const AdvanceTechnicalCourse = () => {
             </div>
           </div>
           <div className="col-md-5">
-            <img src={trading1} width={"100%"} alt="" />
+            <img src={trading1} width={"100%"} alt="trading smart edge images" />
           </div>
         </div>
       </div>
     </div>
+    </>
   );
 };
 

@@ -42,57 +42,59 @@ const OurCompany = () => {
     ],
   };
   return (
-    <div style={{ background: "white" }}>
+    <div
+      className="ourcompanylogos"
+      style={{ background: "white", marginTop: "3rem", marginBottom: "3rem" }}
+    >
       <div className="container">
         <section className="container-fluid companylogos">
           <div className="slider-container">
             <Slider {...settings}>
               <div>
                 <div className="company_logo">
-                
-                  <img width={"100%"} src={google} alt="" />
+                  <img width={"100%"} src={google} alt="trading smart edge images" />
                   <div className="star d-flex gap-2 justify-content-center">
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
                   </div>
                 </div>
               </div>
               <div>
                 <div className="company_logo">
-                  <img width={"100%"} src={justdial} alt="" />
-                    <div className="star d-flex gap-2 justify-content-center">
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
+                  <img width={"100%"} src={justdial} alt="trading smart edge images" />
+                  <div className="star d-flex gap-2 justify-content-center">
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
                   </div>
                 </div>
               </div>
               <div>
                 <div className="company_logo">
-                  <img width={"100%"} src={sulekha} alt="" />
-                    <div className="star d-flex gap-2 justify-content-center">
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
+                  <img width={"100%"} src={sulekha} alt="trading smart edge images" />
+                  <div className="star d-flex gap-2 justify-content-center">
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
                   </div>
                 </div>
               </div>
               <div>
                 <div className="company_logo">
-                  <img width={"90%"} src={linkedin} alt="" />
-                    <div className="star d-flex gap-2 justify-content-center">
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
+                  <img width={"90%"} src={linkedin} alt="trading smart edge images" />
+                  <div className="star d-flex gap-2 justify-content-center">
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
+                    <i class="bi bi-star-fill" style={{ color: "#fed800" }}></i>
                   </div>
                 </div>
               </div>

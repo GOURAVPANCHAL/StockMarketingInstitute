@@ -1,8 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ai  from '../../../images/stock8.png'
 import stock from '../../../images/ai10.jpg'
+import { Helmet } from "react-helmet";
 const DiplomaFinancial = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   return (
+    <>
+     <Helmet>
+        <title>Diploma in Financial Market Management</title>
+        <meta name="description" content="Enroll in our Diploma in Financial Market Management to enhance your financial knowledge and skills. Ideal for aspiring financial analysts and traders." />
+        <meta name="keywords" content="Diploma, Financial Market, Management, Financial Education, Trading, Investment, Financial Analyst, Stock Market, Equity Market" />
+        <meta name="author" content="Hemant Sharma" />
+        <meta property="og:title" content="Diploma in Financial Market Management" />
+        <meta property="og:description" content="Join our Diploma in Financial Market Management program to gain essential skills in financial markets." />
+        <meta property="og:image" content={ai} />
+        <meta property="og:url" content="http://tradingsmartedge.com/Diploma-Financial" />
+        <meta property="og:site_name" content="Trading Smart Edge" />
+      </Helmet>
     <div className="container mt-5 mb-5">
       <p className="allheading">Diploma in Financial Market Management</p>
       <div className="row">
@@ -903,12 +922,13 @@ const DiplomaFinancial = () => {
       </div>
         </div>
         <div className="col-md-6 mt-5">
-            <img src={ai} width={'100%'} alt="" />
+            <img src={ai} width={'100%'} alt="trading smart edge images" />
         </div>
       </div>
 
      
     </div>
+    </>
   );
 };
 

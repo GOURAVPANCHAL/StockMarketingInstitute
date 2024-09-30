@@ -15,52 +15,90 @@ const ChoseInstitute = () => {
     <>
       <div className="container">
         <h1 className="text-center allheading mt-5 mb-4">
-          Why Student Choose TSE Institute ?
+          Why Student Choose Trading Smart Edge Institute in delhi, Pitampura?
         </h1>
         <div className="row">
           <div className="col-md-6">
-            <img className="w-100" src={tradingImage} alt="" />
+            <img
+              className="w-100"
+              src={tradingImage}
+              alt="trading smart edge images"
+            />
           </div>
           <div className="col-md-6">
             <div>
-            <ul>
-    <li className="about">
-        <i class="bi bi-check2-circle aboutIcon"></i>&nbsp;Top Tier Trainers
-        <ul>
-            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> Industry experts with years of experience.</li>
-            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> Award-winning educators.</li>
-        </ul>
-    </li>
-    <li className="about">
-        <i class="bi bi-check2-circle aboutIcon"></i>&nbsp;Industry-Ready Skills
-        <ul>
-            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> Practical trading techniques.</li>
-            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> Advanced market analysis.</li>
-        </ul>
-    </li>
-    <li className="about">
-        <i class="bi bi-check2-circle aboutIcon"></i>&nbsp;Performance Analytics
-        <ul>
-            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> Real-time performance tracking.</li>
-            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> Detailed feedback reports.</li>
-        </ul>
-    </li>
-    <li className="about">
-        <i class="bi bi-check2-circle aboutIcon"></i>&nbsp;Best In Doubt Handling
-        <ul>
-            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> 24/7 support for queries.</li>
-            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> Dedicated doubt-clearing sessions.</li>
-        </ul>
-    </li>
-    <li className="about">
-        <i class="bi bi-check2-circle aboutIcon"></i>&nbsp;Personalized Mentorship
-        <ul>
-            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> One-on-one mentoring sessions.</li>
-            <li className="trainers"><i class="bi bi-arrow-right-circle"></i> Customized learning paths.</li>
-        </ul>
-    </li>
-</ul>
-
+              <ul>
+                <li className="about">
+                  <i class="bi bi-check2-circle aboutIcon"></i>&nbsp;Top Tier
+                  Trainers
+                  <ul>
+                    <li className="trainers">
+                      <i class="bi bi-arrow-right-circle"></i> Industry experts
+                      with years of experience.
+                    </li>
+                    <li className="trainers">
+                      <i class="bi bi-arrow-right-circle"></i> Award-winning
+                      educators.
+                    </li>
+                  </ul>
+                </li>
+                <li className="about">
+                  <i class="bi bi-check2-circle aboutIcon"></i>
+                  &nbsp;Industry-Ready Skills
+                  <ul>
+                    <li className="trainers">
+                      <i class="bi bi-arrow-right-circle"></i> Practical trading
+                      techniques.
+                    </li>
+                    <li className="trainers">
+                      <i class="bi bi-arrow-right-circle"></i> Advanced market
+                      analysis.
+                    </li>
+                  </ul>
+                </li>
+                <li className="about">
+                  <i class="bi bi-check2-circle aboutIcon"></i>&nbsp;Performance
+                  Analytics
+                  <ul>
+                    <li className="trainers">
+                      <i class="bi bi-arrow-right-circle"></i> Real-time
+                      performance tracking.
+                    </li>
+                    <li className="trainers">
+                      <i class="bi bi-arrow-right-circle"></i> Detailed feedback
+                      reports.
+                    </li>
+                  </ul>
+                </li>
+                <li className="about">
+                  <i class="bi bi-check2-circle aboutIcon"></i>&nbsp;Best In
+                  Doubt Handling
+                  <ul>
+                    <li className="trainers">
+                      <i class="bi bi-arrow-right-circle"></i> 24/7 support for
+                      queries.
+                    </li>
+                    <li className="trainers">
+                      <i class="bi bi-arrow-right-circle"></i> Dedicated
+                      doubt-clearing sessions.
+                    </li>
+                  </ul>
+                </li>
+                <li className="about">
+                  <i class="bi bi-check2-circle aboutIcon"></i>
+                  &nbsp;Personalized Mentorship
+                  <ul>
+                    <li className="trainers">
+                      <i class="bi bi-arrow-right-circle"></i> One-on-one
+                      mentoring sessions.
+                    </li>
+                    <li className="trainers">
+                      <i class="bi bi-arrow-right-circle"></i> Customized
+                      learning paths.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -80,8 +118,9 @@ const ChoseInstitute = () => {
             </div>
             <div className="col-md-6 stokmarketing">
               <div className="stockmarket">
-                <h1 className="allheading">Best Stock Market Institute</h1>
-                <div className="mt-4">
+                <h1 className="allheading">Best Stock Market Institute
+                in Delhi</h1>
+                <div className="contentforbeststock mt-4">
                   <p className="heading">
                     <b>Accreditation and Reputation:</b>
                   </p>
@@ -97,29 +136,33 @@ const ChoseInstitute = () => {
                     </li>
                   </ul>
                 </div>
-                <div>
+                <div className="contentforbeststock">
                   <p className="heading">
                     <b>Comprehensive Curriculum:</b>
                   </p>
                   <ul>
                     <li>
-                   <b> Wide Range of Topics:</b> Covers a broad spectrum of topics including technical analysis, fundamental analysis.
+                      <b> Wide Range of Topics:</b> Covers a broad spectrum of
+                      topics including technical analysis, fundamental analysis.
                     </li>
                     <li>
-                   <b> Updated Content:</b> Curriculum is continuously updated to reflect the latest market trends and tools.
+                      <b> Updated Content:</b> Curriculum is continuously
+                      updated to reflect the latest market trends and tools.
                     </li>
                   </ul>
                 </div>
-                <div>
+                <div className="contentforbeststock">
                   <p className="heading">
                     <b> Experienced Instructors:</b>
                   </p>
                   <ul>
                     <li>
-                   <b> Real-World Experience:</b> Instructors have substantial real-world trading experience.
+                      <b> Real-World Experience:</b> Instructors have
+                      substantial real-world trading experience.
                     </li>
                     <li>
-                   <b> Strong Academic Background:</b> Mentors have a strong academic background in finance and economics.
+                      <b> Strong Academic Background:</b> Mentors have a strong
+                      academic background in finance and economics.
                     </li>
                   </ul>
                 </div>

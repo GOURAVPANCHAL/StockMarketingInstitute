@@ -1,9 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import professionalImage from "../../../images/stock5.png";
 import ai from "../../../images/ai6.jpg";
+import { Helmet } from "react-helmet";
 
 const FundamentalAnalysis = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   return (
+    <>
+     <Helmet>
+        <title>Fundamental Analysis Course | Become a Stock Market Expert</title>
+        <meta
+          name="description"
+          content="Enroll in our Fundamental Analysis course to master stock market strategies, gain essential skills, and boost your career opportunities in finance."
+        />
+        <meta name="keywords" content="Fundamental Analysis, Stock Market, Finance Course, Equity Analysis, Trading Strategies, Stock Analyst, Financial Services" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://yourwebsite.com/fundamental-analysis" />
+      </Helmet>
     <div className="container mt-5 mb-5">
       <p className="allheading">Fundamental Analysis</p>
 
@@ -13,7 +31,7 @@ const FundamentalAnalysis = () => {
           width={'100%'}
             style={{ borderRadius: "30px 0px 0px 30px" }}
             src={professionalImage}
-            alt=""
+            alt="trading smart edge images"
           />
         </div>
         <div className="col-md-7">
@@ -300,12 +318,13 @@ const FundamentalAnalysis = () => {
           width={'100%'}
             style={{ borderRadius: "30px 0px 0px 30px" }}
             src={ai}
-            alt=""
+            alt="trading smart edge images"
           />
         </div>
       </div>
 
     </div>
+    </>
   );
 };
 

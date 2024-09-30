@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../Navbar/resources.css";
 const Resources = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   return (
     <>
       <div className="resources_bg">

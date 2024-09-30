@@ -1,8 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
 import hemant from "../../../images/hemant.jpg";
+import { Helmet } from "react-helmet";
 const AboutHemant = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   return (
-    <div>
+    <>
+      <Helmet>
+        <title>About Hemant Sharma | Trading Smart Edge</title>
+        <meta
+          name="description"
+          content="Learn about Hemant Sharma, a full-time trader with a Bachelor's Degree in Finance and expertise in stock market trading and analysis."
+        />
+        <meta
+          name="keywords"
+          content="Hemant Sharma, stock market, trading, finance, trading strategies, technical analysis, risk management, entrepreneurship"
+        />
+      </Helmet>
       <div className="container mb-5">
         <div className="main">
           <div className="row mt-5">
@@ -20,24 +38,24 @@ const AboutHemant = () => {
                 entrepreneurship over traditional employment.
               </p>
               <p className="para">
-            Hemant's success is built on a blend of self-education and hands-on
-            experience at a proprietary trading desk for about three years.
-            During this time, he managed funds ranging from Rs 2.5 to 3 CR,
-            mastering various option trading strategies, including Hedge and
-            Arbitrage Trading Strategies. His professional expertise is further
-            validated by the prestigious NISM License, highlighting his
-            commitment to excellence and regulatory compliance in the stock
-            market.
-          </p>
-          <p className="para">
-            One of Hemant's standout qualities is his ability to apply
-            theoretical knowledge to real-world scenarios. With a strong command
-            of Technical Analysis, especially chart analysis, he is a
-            well-rounded authority in trading and chart reading.
-          </p>
+                Hemant's success is built on a blend of self-education and
+                hands-on experience at a proprietary trading desk for about
+                three years. During this time, he managed funds ranging from Rs
+                2.5 to 3 CR, mastering various option trading strategies,
+                including Hedge and Arbitrage Trading Strategies. His
+                professional expertise is further validated by the prestigious
+                NISM License, highlighting his commitment to excellence and
+                regulatory compliance in the stock market.
+              </p>
+              <p className="para">
+                One of Hemant's standout qualities is his ability to apply
+                theoretical knowledge to real-world scenarios. With a strong
+                command of Technical Analysis, especially chart analysis, he is
+                a well-rounded authority in trading and chart reading.
+              </p>
             </div>
           </div>
-          
+
           <p className="para">
             Hemant's insights go beyond technical skills. He strongly believes
             in the critical role of a trader's psychology in navigating market
@@ -60,7 +78,7 @@ const AboutHemant = () => {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

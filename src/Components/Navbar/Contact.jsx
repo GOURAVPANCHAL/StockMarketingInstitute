@@ -6,6 +6,7 @@ import stock from "../Navbar/assets/analytics.gif";
 import bulb from "../Navbar/assets/lightbulb.gif";
 import verify from "../Navbar/assets/verified.gif";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   useEffect(() => {
@@ -13,64 +14,98 @@ const Contact = () => {
       top: 0,
       behavior: "smooth",
     });
-  }, []);
+  });
   return (
     <>
+      <Helmet>
+        <title>Contact Us - Trading Smart Edge</title>
+        <meta
+          name="description"
+          content="Get in touch with Trading Smart Edge for expert trading advice, courses, and personalized support. Contact us for consultations and inquiries."
+        />
+        <meta
+          name="keywords"
+          content="Contact Trading Smart Edge, trading support, stock market consultation, trading courses, expert trading advice"
+        />
+      </Helmet>
       <div>
         <div className="container">
           <div className="row">
             <p className="contactHeading text-center mt-5">Contact-us</p>
             <div className="col-md-6">
               <div className="formdiv">
-                <form action="">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                  {/* <!-- Replace with your Access Key --> */}
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="757a79bf-f594-4093-a93d-c6f07db7ac6c"
+                  />
+
                   <div>
-                    <label htmlFor="">Full Name</label>
+                    <label htmlFor="name">Full Name</label>
                     <input
                       className="form-control inputField"
                       type="text"
                       name="name"
-                      id=""
+                      required
                     />
                   </div>
                   <div>
-                    <label htmlFor="">Email</label>
+                    <label htmlFor="email">Email</label>
                     <input
                       className="form-control inputField"
                       type="email"
                       name="email"
-                      id=""
+                      required
                     />
                   </div>
                   <div>
-                    <label htmlFor="">Phon Number</label>
+                    <label htmlFor="number">Phone Number</label>
                     <input
                       className="form-control inputField"
-                      type="number"
+                      type="tel" // Changed to "tel" for better UX on mobile devices
                       name="number"
-                      id=""
+                      required
                     />
                   </div>
                   <div>
-                    <label htmlFor="">City</label>
+                    <label htmlFor="city">City</label>
                     <input
                       className="form-control inputField"
                       type="text"
                       name="city"
-                      id=""
+                      required
                     />
                   </div>
                   <div>
-                    <label htmlFor="">How Can I Help You ?</label>
+                    <label htmlFor="help">How Can I Help You?</label>
                     <textarea
                       cols={20}
                       rows={5}
                       className="form-control inputField"
-                      name="help"
-                      id=""
+                      name="message" // Updated to "message" for Web3Forms
+                      required
                     ></textarea>
                   </div>
+
+                  {/* <!-- Honeypot Spam Protection --> */}
+                  <input
+                    type="checkbox"
+                    name="botcheck"
+                    className="hidden"
+                    style={{ display: "none" }}
+                  />
+
+                  {/* <!-- Custom Confirmation / Success Page --> */}
+                  <input
+                    type="hidden"
+                    name="redirect"
+                    value="https://tradingsmartedge.com/contact"
+                  />
+
                   <div style={{ display: "flex", justifyContent: "center" }}>
-                    <button className="contactbutton">
+                    <button type="submit" className="contactbutton">
                       Reserve Your Free Consultation
                     </button>
                   </div>
@@ -120,16 +155,28 @@ const Contact = () => {
                       <div class="social-media">
                         <p className="contact">Connect with us :</p>
                         <div class="social-icons">
-                          <Link target="blank" to="https://www.instagram.com/reel/C89AEbFycQm/?igsh=MWRycWtpdzZqYmpvcg%3D%3D">
+                          <Link
+                            target="blank"
+                            to="https://www.instagram.com/reel/C89AEbFycQm/?igsh=MWRycWtpdzZqYmpvcg%3D%3D"
+                          >
                             <i class="bi bi-instagram"></i>
                           </Link>
-                          <Link target="blank" to="https://www.youtube.com/@tradingsmartedgeacademy">
+                          <Link
+                            target="blank"
+                            to="https://www.youtube.com/@tradingsmartedgeacademy"
+                          >
                             <i class="bi bi-youtube"></i>
                           </Link>
-                          <Link target="blank" to="https://api.whatsapp.com/send?phone=+919079036042">
+                          <Link
+                            target="blank"
+                            to="https://api.whatsapp.com/send?phone=+919079036042"
+                          >
                             <i class="bi bi-whatsapp"></i>
                           </Link>
-                          <Link target="blank" to="https://www.linkedin.com/company/trading-smart-edge/about/'">
+                          <Link
+                            target="blank"
+                            to="https://www.linkedin.com/company/trading-smart-edge/about/'"
+                          >
                             <i class="bi bi-linkedin"></i>
                           </Link>
                           <Link
@@ -167,7 +214,11 @@ const Contact = () => {
                     alignItems: "center",
                   }}
                 >
-                  <img width={"15%"} src={verify} alt="" />
+                  <img
+                    width={"15%"}
+                    src={verify}
+                    alt="trading smart edge images"
+                  />
                   <div>
                     <p className="para">
                       <b>Experienced Faculty</b>
@@ -183,7 +234,11 @@ const Contact = () => {
                     alignItems: "center",
                   }}
                 >
-                  <img width={"15%"} src={bulb} alt="" />
+                  <img
+                    width={"15%"}
+                    src={bulb}
+                    alt="trading smart edge images"
+                  />
                   <div>
                     <p className="para">
                       <b>Practical Approach</b>
@@ -199,7 +254,11 @@ const Contact = () => {
                     alignItems: "center",
                   }}
                 >
-                  <img width={"15%"} src={support} alt="" />
+                  <img
+                    width={"15%"}
+                    src={support}
+                    alt="trading smart edge images"
+                  />
                   <div>
                     <p className="para">
                       <b>Best Support</b>
@@ -217,7 +276,11 @@ const Contact = () => {
                     alignItems: "center",
                   }}
                 >
-                  <img width={"15%"} src={stock} alt="" />
+                  <img
+                    width={"15%"}
+                    src={stock}
+                    alt="trading smart edge images"
+                  />
                   <div>
                     <p className="para">
                       <b>International Stock Marketing</b>
@@ -233,7 +296,11 @@ const Contact = () => {
                     alignItems: "center",
                   }}
                 >
-                  <img width={"15%"} src={building} alt="" />
+                  <img
+                    width={"15%"}
+                    src={building}
+                    alt="trading smart edge images"
+                  />
                   <div>
                     <p className="para">
                       <b>Global Stock Marketing</b>
@@ -253,6 +320,7 @@ const Contact = () => {
           height="450"
           allowfullscreen=""
           loading="lazy"
+          title="map"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>

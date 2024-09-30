@@ -1,15 +1,36 @@
-import React from "react";
+import React, { useEffect } from "react";
 import stock from "../../../images/stock11.png";
 import ai from "../../../images/ai13.jpg"
+import { Helmet } from "react-helmet";
 
 const NISMSeriesVIIIDerivativesMarket = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   return (
+    <>
+      <Helmet>
+        <title>NISM Derivatives Market Module - Trading Smart Edge</title>
+        <meta
+          name="description"
+          content="Enroll in the NISM Derivative Market Module Certification by Trading Smart Edge and accelerate your career in the financial market."
+        />
+        <meta
+          name="keywords"
+          content="Trading Smart Edge, NISM Certification, Derivative Market, NSE, financial market courses, stock market training, Hemant Sharma"
+        />
+        <meta name="author" content="Hemant Sharma" />
+        <link rel="canonical" href="https://tradingsmartedge.com/NISM-Series-VIII-Derivatives" />
+      </Helmet>
     <div className="container">
       <div className="container mt-5 mb-5">
         <p className="allheading">Derivative Market Module - NISM CERTIFICATION</p>
         <div className="row">
           <div className="col-md-6">
-          <img width={'100%'} src={ai} alt="" />
+          <img width={'100%'} src={ai} alt="trading smart edge images" />
           </div>
           <div className="col-md-6">
         <p className="para" style={{ color: "gray" }}>
@@ -64,7 +85,7 @@ const NISMSeriesVIIIDerivativesMarket = () => {
         </p>
           </div>
           <div className="col-md-6 mt-5">
-          <img width={'100%'} src={stock} alt="" />
+          <img width={'100%'} src={stock} alt="trading smart edge images" />
 
           </div>
         </div>
@@ -392,6 +413,7 @@ const NISMSeriesVIIIDerivativesMarket = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

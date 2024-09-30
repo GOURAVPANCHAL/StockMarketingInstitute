@@ -1,13 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ai  from '../../../images/stock6.png'
 import stock from '../../../images/ai7.jpg'
+import { Helmet } from "react-helmet";
 const IntradayTradingSetup = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   return (
+    <>
+   <Helmet>
+        <title>Intraday Trading Setups | Trading Smart Edge</title>
+        <meta name="description" content="Explore dynamic intraday trading setups to capitalize on market movements with effective strategies." />
+        <meta name="keywords" content="Intraday Trading, Trading Strategies, Breakout Strategies, Momentum Trading, Scalping, Gap Trading, Market Movements" />
+        <meta name="author" content="Hemant Sharma" />
+      </Helmet>  
     <div className="container mt-5 ">
       <p className="allheading">Intraday Trading Setups</p>
       <div className="row">
         <div className="col-md-6">
-          <img src={stock} width={'100%'} alt="" />
+          <img src={stock} width={'100%'} alt="trading smart edge images" />
         </div>
         <div className="col-md-6">
 
@@ -228,13 +242,14 @@ const IntradayTradingSetup = () => {
       <p className="para">Whether you are targeting breakouts, reversals, or momentum plays, mastering these setups can significantly enhance your intraday trading performance and profitability.</p>
         </div>
         <div className="col-md-6 mt-5">
-        <img src={ai} width={'100%'} alt="" />
+        <img src={ai} width={'100%'} alt="trading smart edge images" />
         </div>
       </div>
 
 
       
     </div>
+    </>
   );
 };
 

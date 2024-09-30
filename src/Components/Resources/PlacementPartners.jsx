@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import partner1 from "../../images/partner1.jpg";
 import partner2 from "../../images/partner2.png";
 import partner3 from "../../images/partner3.png";
@@ -6,9 +6,27 @@ import partner4 from "../../images/partner4.png";
 import partner5 from "../../images/partner5.png";
 import partner6 from "../../images/partner6.png";
 import partner7 from "../../images/partner7.png";
+import { Helmet } from "react-helmet";
 const PlacementPartners = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   return (
     <>
+      <Helmet>
+        <title>Placement Partners | Trading Smart Edge</title>
+        <meta
+          name="description"
+          content="Explore our placement partners at Trading Smart Edge, where NSE certified professionals find rewarding job opportunities in financial institutions and banks."
+        />
+        <meta
+          name="keywords"
+          content="Placement Partners, Trading Smart Edge, NSE certified professionals, financial institutions jobs, banking careers, Adroit Financial, Motilal Oswal, Angel Broking, job opportunities"
+        />
+      </Helmet>
       <p className="head">
         Our <span style={{ color: "green" }}>Placement Partners</span>
       </p>
@@ -50,25 +68,53 @@ const PlacementPartners = () => {
 
         <div className="row">
           <div className="col-md-3 mb-5">
-            <img width={"100%"} src={partner1} alt="" />
+            <img
+              width={"100%"}
+              src={partner1}
+              alt="trading smart edge images"
+            />
           </div>
           <div className="col-md-3 mb-5">
-            <img width={"100%"} src={partner2} alt="" />
+            <img
+              width={"100%"}
+              src={partner2}
+              alt="trading smart edge images"
+            />
           </div>
           <div className="col-md-3 mb-5">
-            <img width={"100%"} src={partner3} alt="" />
+            <img
+              width={"100%"}
+              src={partner3}
+              alt="trading smart edge images"
+            />
           </div>
           <div className="col-md-3 mb-5">
-            <img width={"100%"} src={partner4} alt="" />
+            <img
+              width={"100%"}
+              src={partner4}
+              alt="trading smart edge images"
+            />
           </div>
           <div className="col-md-3 mb-5">
-            <img width={"100%"} src={partner5} alt="" />
+            <img
+              width={"100%"}
+              src={partner5}
+              alt="trading smart edge images"
+            />
           </div>
           <div className="col-md-3 mb-5">
-            <img width={"100%"} src={partner6} alt="" />
+            <img
+              width={"100%"}
+              src={partner6}
+              alt="trading smart edge images"
+            />
           </div>
           <div className="col-md-3 mb-5">
-            <img width={"100%"} src={partner7} alt="" />
+            <img
+              width={"100%"}
+              src={partner7}
+              alt="trading smart edge images"
+            />
           </div>
         </div>
       </div>

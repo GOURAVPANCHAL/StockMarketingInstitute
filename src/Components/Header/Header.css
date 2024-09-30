@@ -41,7 +41,17 @@
     mix-blend-mode: color-burn;
 }
 
+
+.homeCarousel{  
+    height: 100%;
+    width: 100%;
+}
+
 @media screen and (max-width:600px) {
+    .forclientstyle{
+        width: 100%;
+        aspect-ratio: 4;
+    }
     .headingMain{
         font-size: 26px;
         top: 0%;
@@ -68,7 +78,7 @@
     position: fixed;
     z-index: 999;
     top: 85%;
-    right: 2%;
+    right: 9%;
     background-color: #181D38;
     padding: 1rem;
     border-radius: 50%;

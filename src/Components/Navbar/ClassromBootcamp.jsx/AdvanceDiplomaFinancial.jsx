@@ -1,10 +1,45 @@
-import React from "react";
+import React, { useEffect } from "react";
 import stock from "../../../images/stock9.png";
 import ai from "../../../images/ai11.jpg";
+import { Helmet } from "react-helmet";
 
 const AdvanceDiplomaFinancial = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   return (
     <>
+      <Helmet>
+        <title>
+          Advance Diploma in Financial Market Management | Trading Smart Edge
+        </title>
+        <meta
+          name="description"
+          content="Enroll in our Advance Diploma in Financial Market Management to specialize in stock market and share market. Job-oriented program with 100% job guarantee."
+        />
+        <meta
+          name="keywords"
+          content="Advance Diploma, Financial Market Management, Stock Market Course, Share Market Course, NSE, SEBI, Banking Courses, Job Guarantee"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta
+          property="og:title"
+          content="Advance Diploma in Financial Market Management"
+        />
+        <meta
+          property="og:description"
+          content="Advance Diploma in Financial Market Management offered by Trading Smart Edge. Specialize in stock market with 100% job guarantee."
+        />
+        <meta
+          property="og:url"
+          content="https://tradingsmartedge.com/Advance-Diploma-Financial"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={ai} />
+      </Helmet>
       <div className="container mt-5 mb-5">
         <p className="allheading">
           Advance Diploma In Financial Market Management
@@ -30,29 +65,27 @@ const AdvanceDiplomaFinancial = () => {
             </p>
           </div>
           <div className="col-md-6 mt-5">
-          <p className="para">
-          ADSMP (Advance Diploma in stock market professional) is a short-term
-          course in the stock market with 100% Job guarantee in broking houses,
-          financial institutions, and banking industry. One can get stable,
-          paying, and white-collar jobs in this field. This is highly reputed
-          sector and personnel’s working in Stock Market, share market and
-          Banking are considered highly skilful and knowledgeable. The module is
-          based on Theory as well as practical.
-        </p>
-        <p className="para">
-          This course is divided into 12 modules, in which All Modules including
-          preparation and certification of NSE and SEBI certificates +
-          theoretical and practical on live software’s used in stock market
-          trading courses. Apart from this 11th module is of internship or on
-          the job training.
-        </p>
+            <p className="para">
+              ADSMP (Advance Diploma in stock market professional) is a
+              short-term course in the stock market with 100% Job guarantee in
+              broking houses, financial institutions, and banking industry. One
+              can get stable, paying, and white-collar jobs in this field. This
+              is highly reputed sector and personnel’s working in Stock Market,
+              share market and Banking are considered highly skilful and
+              knowledgeable. The module is based on Theory as well as practical.
+            </p>
+            <p className="para">
+              This course is divided into 12 modules, in which All Modules
+              including preparation and certification of NSE and SEBI
+              certificates + theoretical and practical on live software’s used
+              in stock market trading courses. Apart from this 11th module is of
+              internship or on the job training.
+            </p>
           </div>
           <div className="col-md-6 mt-5 mb-5">
-          <img src={stock} width={"100%"} alt="stock" />
-
+            <img src={stock} width={"100%"} alt="stock" />
           </div>
         </div>
-        
 
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">

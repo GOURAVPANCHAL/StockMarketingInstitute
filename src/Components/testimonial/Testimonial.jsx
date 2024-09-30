@@ -10,10 +10,10 @@ import Slider from "react-slick";
 import "../testimonial/testimonial.css";
 
 const Testimonial = () => {
-  var settings = {
+  const settings = {
     dots: true,
     infinite: true,
-    autoplay:true,
+    autoplay: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -46,7 +46,7 @@ const Testimonial = () => {
     ],
   };
 
-  const testimonial = [
+  const testimonials = [
     {
       name: "Shivam",
       image: testimonial1,
@@ -55,7 +55,7 @@ const Testimonial = () => {
         <p>
           <span style={{ fontSize: "60px" }}>❝</span>
           <br />
-          The courses at [Trading Smart Edge] transformed my understanding of
+          The courses at Trading Smart Edge transformed my understanding of
           stock markets. The hands-on approach and expert guidance equipped me
           with practical skills that I apply daily in my career.
         </p>
@@ -69,7 +69,7 @@ const Testimonial = () => {
         <p>
           <span style={{ fontSize: "60px" }}>❝</span>
           <br />
-          The comprehensive curriculum at [Trading Smart Edge] covers everything
+          The comprehensive curriculum at Trading Smart Edge covers everything
           from basic to advanced trading strategies. The real-world case studies
           and simulations were particularly beneficial.
         </p>
@@ -82,7 +82,7 @@ const Testimonial = () => {
       desc: (
         <p>
           <span style={{ fontSize: "60px" }}>❝</span>
-          <br />I joined [Trading Smart Edge] with zero knowledge about trading.
+          <br />I joined Trading Smart Edge with zero knowledge about trading.
           The step-by-step learning modules and supportive mentors made it easy
           for me to grasp complex concepts.
         </p>
@@ -96,7 +96,7 @@ const Testimonial = () => {
         <p>
           <span style={{ fontSize: "60px" }}>❝</span>
           <br />
-          The insights I gained from [Trading Smart Edge] have been invaluable.
+          The insights I gained from Trading Smart Edge have been invaluable.
           The course structure is well-organized, and the instructors are highly
           knowledgeable, making learning both enjoyable and effective.
         </p>
@@ -110,13 +110,11 @@ const Testimonial = () => {
         <p>
           <span style={{ fontSize: "60px" }}>❝</span>
           <br />
-          The insights I gained from [Trading Smart Edge] have been invaluable.
-          The course structure is well-organized, and the instructors are highly
-          knowledgeable, making learning both enjoyable and effective.
+          Trading Smart Edge has equipped me with skills to excel in the trading
+          world. I highly recommend their courses!
         </p>
       ),
     },
-    ,
     {
       name: "Ishant",
       image: testimonial6,
@@ -125,9 +123,8 @@ const Testimonial = () => {
         <p>
           <span style={{ fontSize: "60px" }}>❝</span>
           <br />
-          The insights I gained from [Trading Smart Edge] have been invaluable.
-          The course structure is well-organized, and the instructors are highly
-          knowledgeable, making learning both enjoyable and effective.
+          The practical experience and mentorship at Trading Smart Edge set me
+          on the right path to succeed in trading.
         </p>
       ),
     },
@@ -135,19 +132,23 @@ const Testimonial = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="container pb-5">
         <div className="text-center mt-5 mb-3">
-          <a className="testimonialboder" href="#">
+          <a href="#" className="testimonialboder">
             Testimonial
           </a>
           <h1 className="allheading mt-3">Our Student Reviews</h1>
         </div>
         <div className="slider-container">
           <Slider {...settings}>
-            {testimonial.map((item, index) => (
-              <div className="testimonialcard">
+            {testimonials.map((item, index) => (
+              <div className="testimonialcard" key={index}>
                 <div className="imagesection d-flex">
-                  <img className="image" src={item.image} alt="" />
+                  <img
+                    className="image"
+                    src={item.image}
+                    alt={`${item.name}'s testimonial`}
+                  />
                   <div className="content">
                     <h5>
                       <b>{item.name}</b>
@@ -156,12 +157,27 @@ const Testimonial = () => {
                   </div>
                 </div>
                 <div>
-                <div className="star d-flex gap-2">
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
-                  <i class="bi bi-star-fill" style={{color:'#fed800'}}></i>
+                  <div className="star d-flex gap-2">
+                    <i
+                      className="bi bi-star-fill"
+                      style={{ color: "#fed800" }}
+                    ></i>
+                    <i
+                      className="bi bi-star-fill"
+                      style={{ color: "#fed800" }}
+                    ></i>
+                    <i
+                      className="bi bi-star-fill"
+                      style={{ color: "#fed800" }}
+                    ></i>
+                    <i
+                      className="bi bi-star-fill"
+                      style={{ color: "#fed800" }}
+                    ></i>
+                    <i
+                      className="bi bi-star-fill"
+                      style={{ color: "#fed800" }}
+                    ></i>
                   </div>
                 </div>
                 <div>

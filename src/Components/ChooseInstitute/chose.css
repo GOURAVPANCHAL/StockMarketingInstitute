@@ -89,6 +89,14 @@ button{
   border: none;
 }
 @media screen and (max-width:600px) {
+  .contentforbeststock{
+    padding: 1rem;
+    
+  }
+  .contentforbeststock ul li{
+    list-style-type: none;
+    padding: 0;
+  }
   .about {
     font-size: 18px;
   }

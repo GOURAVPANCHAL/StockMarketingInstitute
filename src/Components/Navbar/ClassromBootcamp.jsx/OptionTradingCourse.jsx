@@ -1,22 +1,44 @@
-import React from "react";
-import trading1  from "../../../images/ai5.jpg";
+import React, { useEffect } from "react";
+import trading1 from "../../../images/ai5.jpg";
 import professionalImage from "../../../images/stock4.png";
+import { Helmet } from "react-helmet";
 const OptionTradingCourse = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   return (
     <>
+      <Helmet>
+        <title>Option Trading Course - Trading Smart Edge</title>
+        <meta
+          name="description"
+          content="Enroll in our Option Trading Course to learn advanced trading strategies and become an equity analyst."
+        />
+        <meta
+          name="keywords"
+          content="Option Trading Course, trading strategies, equity analyst, financial education"
+        />
+      </Helmet>
       <div className="container mt-5 mb-5">
         <p className="allheading">Option Trading Course</p>
         <div className="row">
           <div className="row mt-5">
-          <div className="col-md-5">
-              <img src={trading1} width={"100%"} alt="" />
+            <div className="col-md-5">
+              <img
+                src={trading1}
+                width={"100%"}
+                alt="trading smart edge images"
+              />
             </div>
             <div className="col-md-7">
-                <p className="para">
-                  You can become Equity Analyst & Stock Analyst and you become
-                  fit for various other posts in various other verticals
-                  depending on your overall Qualifications
-                </p>
+              <p className="para">
+                You can become Equity Analyst & Stock Analyst and you become fit
+                for various other posts in various other verticals depending on
+                your overall Qualifications
+              </p>
             </div>
             <div className="col-md-6 mt-5">
               <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -145,15 +167,15 @@ const OptionTradingCourse = () => {
                     </div>
                   </div>
                 </div>
-                
               </div>
-              832096998
-
             </div>
             <div className="col-md-6 mt-5">
-            <img src={professionalImage} width={"100%"} alt="" />
+              <img
+                src={professionalImage}
+                width={"100%"}
+                alt="trading smart edge images"
+              />
             </div>
-           
           </div>
         </div>
       </div>

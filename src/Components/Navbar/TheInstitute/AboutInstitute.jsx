@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import '../../Navbar/Navbar.css'
 import image from '../../../images/banner.jpg'
+import { Helmet } from "react-helmet";
 const AboutInstitute = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   return (
+    <>
+     <Helmet>
+        <title>About TSE - Trading Smart Edge</title>
+        <meta name="description" content="Learn about Trading Smart Edge (TSE) and the courses we offer in financial markets, trading, and analysis." />
+        <meta name="keywords" content="TSE, Trading Smart Edge, financial markets, trading courses, stocks, forex, derivatives, commodities, technical analysis, fundamental analysis" />
+        <meta name="author" content="Trading Smart Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Helmet>
     <div className="backgroundd mb-5">
       <div className="container">
         <div className="main">
@@ -52,6 +67,7 @@ const AboutInstitute = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

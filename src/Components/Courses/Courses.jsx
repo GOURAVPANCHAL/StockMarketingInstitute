@@ -6,9 +6,9 @@ import support from "../../images/lifetime-support.png";
 import certificate from "../../images/certificate.png";
 import backup from "../../images/backup-class.png";
 import installment from "../../images/installment.png";
-import jobassistance from '../../images/job-assistance.png'
-import freeBooks from '../../images/free-books.png'
-const Courses = () => {
+import jobassistance from "../../images/job-assistance.png";
+import freeBooks from "../../images/free-books.png";
+const   Courses = () => {
   const courses = [
     {
       icon: online,
@@ -48,8 +48,9 @@ const Courses = () => {
     <>
       <div>
         <div className="container">
+            <p className="allheading">Feature & Facilities Available In share market training in delhi trading smart edge
+            Institute</p>
           <div className="row">
-            <p className="allheading">Feature & Facilities</p>
             {courses.map((item, index) => (
               <div className="col-md-3 col-6 mb-2">
                 <div className="coursesbox">

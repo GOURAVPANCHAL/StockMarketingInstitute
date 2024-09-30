@@ -1,9 +1,27 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { Helmet } from 'react-helmet'
 
 
 const Franchise = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   return (
     <>
+     <Helmet>
+        <title>Franchise Opportunity with TSE</title>
+        <meta
+          name="description"
+          content="Explore the franchise opportunity with TSE, a leading institute in stock market education. Join us to empower students with financial skills and create a successful business partnership."
+        />
+        <meta
+          name="keywords"
+          content="Franchise, TSE, Stock Market Education, Business Opportunity, Financial Courses, NSE Certification, NISM Certification, MBA Graduates, Trading Academy, Investment Training"
+        />
+      </Helmet>
       <div>
         <div className="franchiseImage">
           <div className="overlay">

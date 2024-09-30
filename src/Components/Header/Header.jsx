@@ -1,11 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
-import image1 from "../../images/carousel1.jpg";
-import image2 from "../../images/carousel2.jpg";
-import image3 from "../../images/carousel3.jpg";
-import image4 from "../../images/carousel4.jpg";
-import image5 from "../../images/carousel5.jpg";
-import image6 from "../../images/banner.jpg";
+import image1 from "../../images/banner1.jpg";
+import image2 from "../../images/banner2.jpg";
+import image3 from "../../images/banner3.jpg";
+import image4 from "../../images/banner4.jpg";
+import image5 from "../../images/banner5.jpg";
 import company1 from "../../images/ncdex.png";
 import company2 from "../../images/nism.png";
 import company3 from "../../images/nse.png";
@@ -14,13 +13,12 @@ import company5 from "../../images/amfi.png";
 import company6 from "../../images/bse.png";
 import "../Header/Header.css";
 import victorImage from "../../images/cartoon.png";
-import { Link } from "react-router-dom";
 const Header = () => {
   var settings = {
     dots: true,
     autoplay: true,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 5,
     slidesToScroll: 1,
     initialSlide: 0,
@@ -61,17 +59,17 @@ const Header = () => {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src={image6}
-              class="d-block"
+              src={image1}
+              class="d-block homeCarousel"
               width={"100%"}
               height={"100%"}
-              alt="images1"
+              alt="images1" 
             />
           </div>
           <div class="carousel-item">
             <img
-              src={image5}
-              class="d-block"
+              src={image2}
+              class="d-block homeCarousel"
               width={"100%"}
               height={"100%"}
               alt="images2"
@@ -80,16 +78,7 @@ const Header = () => {
           <div class="carousel-item">
             <img
               src={image3}
-              class="d-block"
-              width={"100%"}
-              height={"100%"}
-              alt="images3"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src={image1}
-              class="d-block"
+              class="d-block homeCarousel"
               width={"100%"}
               height={"100%"}
               alt="images3"
@@ -98,7 +87,7 @@ const Header = () => {
           <div class="carousel-item">
             <img
               src={image4}
-              class="d-block"
+              class="d-block homeCarousel"
               width={"100%"}
               height={"100%"}
               alt="images3"
@@ -106,8 +95,8 @@ const Header = () => {
           </div>
           <div class="carousel-item">
             <img
-              src={image2}
-              class="d-block"
+              src={image5}
+              class="d-block homeCarousel"
               width={"100%"}
               height={"100%"}
               alt="images3"
@@ -139,11 +128,11 @@ const Header = () => {
         </a>
       </div>
       <div className="container">
-        <p className="allheading mt-3 mb-5">
+        <h1 className="allheading mt-3 mb-5">
           <b>
-            <u> Enlightening The Minds Shaping The Future</u>
+            <u> Best Stock Market Trading Course Delhi</u>
           </b>
-        </p>
+        </h1>
         <div className="row mt-5">
           <div className="col-md-8">
             <p className="desc">
@@ -187,22 +176,46 @@ const Header = () => {
         <div className="slider-container">
           <Slider {...settings}>
             <div>
-              <img className="forclientstyle" src={company1} alt="" />
+              <img
+                className="forclientstyle"
+                src={company1}
+                alt="trading smart edge images"
+              />
             </div>
             <div>
-              <img className="forclientstyle" src={company2} alt="" />
+              <img
+                className="forclientstyle"
+                src={company2}
+                alt="trading smart edge images"
+              />
             </div>
             <div>
-              <img className="forclientstyle" src={company3} alt="" />
+              <img
+                className="forclientstyle"
+                src={company3}
+                alt="trading smart edge images"
+              />
             </div>
             <div>
-              <img className="forclientstyle" src={company4} alt="" />
+              <img
+                className="forclientstyle"
+                src={company4}
+                alt="trading smart edge images"
+              />
             </div>
             <div>
-              <img className="forclientstyle" src={company5} alt="" />
+              <img
+                className="forclientstyle"
+                src={company5}
+                alt="trading smart edge images"
+              />
             </div>
             <div>
-              <img className="forclientstyle" src={company6} alt="" />
+              <img
+                className="forclientstyle"
+                src={company6}
+                alt="trading smart edge images"
+              />
             </div>
           </Slider>
         </div>
@@ -221,7 +234,11 @@ const Header = () => {
                 </h1>
               </div>
               <div className="col-md-6">
-                <img width={"100%"} src={victorImage} alt="" />
+                <img
+                  width={"100%"}
+                  src={victorImage}
+                  alt="trading smart edge images"
+                />
               </div>
             </div>
           </div>

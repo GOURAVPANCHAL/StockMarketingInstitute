@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { Helmet } from "react-helmet"; // Import Helmet
 import im1 from "../../images/gallery1.jpg";
 import im2 from "../../images/gallery2.jpg";
 import im3 from "../../images/gallery3.jpg";
@@ -32,47 +33,35 @@ import video5 from "../../images/video5.mp4";
 import video6 from "../../images/video6.mp4";
 import video7 from "../../images/video7.mp4";
 import video8 from "../../images/video8.mp4";
+
 const Gallery = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   const gallery = [
-    im1,
-    im2,
-    im3,
-    im4,
-    im5,
-    im6,
-    im7,
-    im8,
-    im9,
-    im10,
-    im11,
-    im12,
-    im13,
-    im14,
-    im15,
-    im16,
-    im17,
-    im18,
-    im19,
-    im20,
-    im21,
-    im22,
-    im23,
-    im24,
-    im25,
+    im1, im2, im3, im4, im5, im6, im7, im8, im9,
+    im10, im11, im12, im13, im14, im15, im16, im17,
+    im18, im19, im20, im21, im22, im23, im24, im25,
   ];
 
   const videoUrls = [
-    video1,
-    video2,
-    video3,
-    video4,
-    video5,
-    video6,
-    video7,
-    video8,
+    video1, video2, video3, video4, video5, video6,
+    video7, video8,
   ];
+
   return (
     <>
+      <Helmet>
+        <title>Our Gallery - Trading Smart Edge</title>
+        <meta
+          name="description"
+          content="Explore our gallery featuring a collection of images and videos showcasing our stock trading activities and events."
+        />
+        <meta name="keywords" content="Gallery, Stock Trading, Trading Events, Trading Activities, Financial Gallery" />
+      </Helmet>
       <div className="container">
         <p className="head">
           Our <span style={{ color: "green" }}>Gallery</span>
@@ -91,8 +80,8 @@ const Gallery = () => {
         </div>
         <div className="row">
           {videoUrls.map((videoUrl, index) => (
-            <div className="col-md-3">
-              <div key={index} className="video-item">
+            <div key={index} className="col-md-3">
+              <div className="video-item">
                 <video width={"100%"} controls className="video-player">
                   <source src={videoUrl} type="video/mp4" />
                   Your browser does not support the video tag.

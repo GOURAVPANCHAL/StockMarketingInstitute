@@ -1,8 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { Helmet } from 'react-helmet'
 
 const Chairmen = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
   return (
-    <div>
+    <>
+    <Helmet>
+        <title>Chairman Message - Trading Smart Edge (TSE)</title>
+        <meta name="description" content="Read the Chairman's message on the mission of Trading Smart Edge (TSE) to shape future stock market leaders and provide financial literacy and skills." />
+        <meta name="keywords" content="Chairman Message, TSE, Trading Smart Edge, stock market, financial literacy, NSE certification, diploma courses, financial market management, technical analysis" />
+        <meta name="author" content="Trading Smart Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Helmet>
       <div className="container mb-5">
       <div className="main">
             <h2 className="contactHeading mt-5 mb-3">Chairman Message</h2>
@@ -62,7 +76,7 @@ const Chairmen = () => {
             </p>
           </div>
       </div>
-    </div>
+    </>
   )
 }
 
